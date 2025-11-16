@@ -1,0 +1,47 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Generated data files
+data/master_colleges.csv
+data/processed/
+outputs/*.json
+outputs/predictions/
+outputs/summaries/
+outputs/equity_analysis/
+outputs/visualizations/
+
+# Configuration files with credentials
+box_config.json
+
+# Large data files (uncomment if raw CSVs are large)
+data/raw/*.csv
+

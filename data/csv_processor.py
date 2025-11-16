@@ -212,7 +212,7 @@ def build_master_colleges(
     if csv_paths is None:
         # Default CSV paths
         csv_paths = {
-            "affordability": "affordability_gap.csv",
+            "affordability": "affordability.csv",
             "results": "college_results.csv"
         }
     

@@ -6,6 +6,11 @@ Main script to aggregate, clean, and enhance college data from multiple CSV sour
 
 import sys
 from pathlib import Path
+
+# Add project root to path so we can import data module
+project_root = Path(__file__).parent.parent
+sys.path.insert(0, str(project_root))
+
 from data.csv_processor import build_master_colleges
 from data.custom_analysis import enhance_master_colleges
 from data.quality_checker import quality_checks
@@ -21,7 +26,7 @@ def main():
     logger.info("Building master colleges dataset...")
     master_df = build_master_colleges(
         csv_paths={
-            "affordability": "affordability_gap.csv",
+            "affordability": "affordability.csv",
             "results": "college_results.csv"
         },
         merge_keys={

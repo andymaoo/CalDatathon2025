@@ -10,6 +10,14 @@ import joblib
 from pathlib import Path
 from typing import Dict, List, Optional
 import logging
+import os
+
+# Load environment variables from .env file
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass  # python-dotenv not installed, will use system env vars
 
 from models.feature_engineering import prepare_features, load_preprocessing_artifacts
 from pipeline.extract_bill import process_bill

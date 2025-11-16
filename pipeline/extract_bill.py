@@ -13,6 +13,13 @@ from pathlib import Path
 from typing import Dict, Optional, List, Tuple
 import logging
 
+# Load environment variables from .env file
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass  # python-dotenv not installed, will use system env vars
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
