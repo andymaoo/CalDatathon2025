@@ -1,0 +1,84 @@
+{
+  "models_trained": [
+    "tuition",
+    "enrollment",
+    "grad_rate",
+    "equity"
+  ],
+  "metrics": {
+    "tuition": {
+      "r2": 0.7818043644702768,
+      "mae": 1.279524788541862,
+      "rmse": 1.6018359468968617,
+      "cv_r2_mean": 0.6854240761267559,
+      "cv_r2_std": 0.03395953057411352
+    },
+    "enrollment": {
+      "r2": 0.45819807226384657,
+      "mae": 1.9672231018831485,
+      "rmse": 2.4003635311791625,
+      "cv_r2_mean": 0.3433283080910071,
+      "cv_r2_std": 0.06100835156252463
+    },
+    "grad_rate": {
+      "r2": -0.0016697625394404003,
+      "mae": 0.7925075565990619,
+      "rmse": 0.9962390698980058,
+      "cv_r2_mean": -0.026899250986135326,
+      "cv_r2_std": 0.028322711142196758
+    },
+    "equity": {
+      "accuracy": 0.905,
+      "f1_weighted": 0.9045301757066463,
+      "classification_report": {
+        "Low": {
+          "precision": 0.9382716049382716,
+          "recall": 0.9440993788819876,
+          "f1-score": 0.9411764705882353,
+          "support": 161.0
+        },
+        "Medium": {
+          "precision": 0.7631578947368421,
+          "recall": 0.7435897435897436,
+          "f1-score": 0.7532467532467533,
+          "support": 39.0
+        },
+        "accuracy": 0.905,
+        "macro avg": {
+          "precision": 0.8507147498375569,
+          "recall": 0.8438445612358656,
+          "f1-score": 0.8472116119174943,
+          "support": 200.0
+        },
+        "weighted avg": {
+          "precision": 0.9041244314489929,
+          "recall": 0.905,
+          "f1-score": 0.9045301757066463,
+          "support": 200.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          152,
+          9
+        ],
+        [
+          10,
+          29
+        ]
+      ],
+      "cv_accuracy_mean": 0.9025000000000001,
+      "cv_accuracy_std": 0.020766559657295194
+    }
+  },
+  "training_config": {
+    "test_size": 0.2,
+    "random_seed": 42,
+    "cv_folds": 5,
+    "stratify_by": [
+      "state",
+      "institution_type"
+    ]
+  },
+  "feature_count": 18
+}

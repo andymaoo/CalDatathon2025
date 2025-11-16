@@ -1,0 +1,4401 @@
+{
+  "dataset_info": {
+    "shape": [
+      21461,
+      270
+    ],
+    "columns": [
+      "institution_id",
+      "institution_name",
+      "city",
+      "state_abbreviation",
+      "sector_name",
+      "sector",
+      "msi_status",
+      "msi_type",
+      "hbcu",
+      "pbi",
+      "annhi",
+      "tribal",
+      "aanapii",
+      "hsi",
+      "nanti",
+      "average_work_study_award",
+      "cost_of_attendance:_in_state,_on_campus",
+      "cost_of_attendance:_out_of_state",
+      "cost_of_attendance:_in_district",
+      "cost_of_attendance:_in_state",
+      "annual_income_estimate",
+      "student_family_earnings_ceiling",
+      "state_minimum_wage",
+      "income_earned_from_working_10_hours_a_week_at_state's_minimum_wage",
+      "net_price",
+      "affordability_gap_(net_price_minus_income_earned_working_10_hrs_at_min_wage)",
+      "weekly_hours_to_close_gap",
+      "100%_ttd_affordability_gap",
+      "150%_ttd_affordability_gap",
+      "cpi_index",
+      "monthly_center_based_child_care_cost",
+      "annual_center_based_child_care_cost",
+      "adjusted_monthly_center_based_child_care_cost",
+      "monthly_home_based_child_care_cost",
+      "adjusted_monthly_home_based_child_care_cost",
+      "annual_home_based_child_care_cost",
+      "student_parent_affordability_gap:_center_based_care",
+      "student_parent_affordability_gap:_home_based_care",
+      "weekly_hours_to_close_gap:_center_based_care",
+      "weekly_hours_to_close_gap:_home_based_care",
+      "100%_ttd_student_parent_affordability_gap:_center_based_care",
+      "100%_ttd_student_parent_affordability_gap:_home_based_care",
+      "150%_ttd_student_parent_affordability_gap:_center_based_care",
+      "150%_ttd_student_parent_affordability_gap:_home_based_care",
+      "adjusted_annual_home_based_child_care_cost",
+      "adjusted_annual_center_based_child_care_cost",
+      "highest_degree_offered_name",
+      "highest_degree_offered",
+      "highest_level_offered_name",
+      "highest_level_offered",
+      "combined_statistical_area",
+      "degree_of_localization_name",
+      "degree_of_localization",
+      "institution_level_name",
+      "institution_level",
+      "institution_size_category_name",
+      "institution_size_category",
+      "county_name",
+      "zip_code",
+      "state",
+      "state_code_(fips)",
+      "latitude",
+      "longitude",
+      "region",
+      "region_#",
+      "sub_region",
+      "sub_region_#",
+      "admissions_website",
+      "institution_status",
+      "2000_carnegie_classification_name",
+      "2000_carnegie_classification",
+      "2015_carnegie_classification_name",
+      "2015_carnegie_classification",
+      "2018_carnegie_classification_name",
+      "2018_carnegie_classification",
+      "2021_carnegie_classification_name",
+      "2021_carnegie_classification",
+      "county_code",
+      "control_of_institution",
+      "number_of_bachelor_degrees_grand_total",
+      "number_of_bachelor_degrees_total_men",
+      "number_of_bachelor_degrees_total_women",
+      "number_of_bachelor_degrees_white_total",
+      "number_of_bachelor_degrees_white_men",
+      "number_of_bachelor_degrees_white_women",
+      "number_of_bachelor_degrees_american_indian_or_alaska_native_men",
+      "number_of_bachelor_degrees_american_indian_or_alaska_native_total",
+      "number_of_bachelor_degrees_american_indian_or_alaska_native_women",
+      "number_of_bachelor_degrees_asian_men",
+      "number_of_bachelor_degrees_asian_total",
+      "number_of_bachelor_degrees_asian_women",
+      "number_of_bachelor_degrees_black_or_african_american_men",
+      "number_of_bachelor_degrees_black_or_african_american_total",
+      "number_of_bachelor_degrees_black_or_african_american_women",
+      "number_of_bachelor_degrees_latino_men",
+      "number_of_bachelor_degrees_latino_total",
+      "number_of_bachelor_degrees_latina_women",
+      "number_of_bachelor_degrees_native_hawaiian_or_other_pacific_islander_men",
+      "number_of_bachelor_degrees_native_hawaiian_or_other_pacific_islander_total",
+      "number_of_bachelor_degrees_native_hawaiian_or_other_pacific_islander_women",
+      "number_of_degrees_awarded_in_science,_technology,_engineering,_and_math",
+      "number_of_degrees_awarded_in_arts_and_humanities",
+      "number_of_degrees_awarded_in_education",
+      "number_of_degrees_awarded_in_social_sciences",
+      "number_of_degrees_awarded_in_health_sciences",
+      "number_of_degrees_awarded_in_business",
+      "percent_of_bachelor_degrees_american_indian_or_alaska_native_men",
+      "percent_of_bachelor_degrees_american_indian_or_alaska_native_total",
+      "percent_of_bachelor_degrees_american_indian_or_alaska_native_women",
+      "percent_of_bachelor_degrees_asian_men",
+      "percent_of_bachelor_degrees_asian_total",
+      "percent_of_bachelor_degrees_asian_women",
+      "percent_of_bachelor_degrees_black_or_african_american_men",
+      "percent_of_bachelor_degrees_black_or_african_american_total",
+      "percent_of_bachelor_degrees_black_or_african_american_women",
+      "percent_of_bachelor_degrees_latino_men",
+      "percent_of_bachelor_degrees_latino_total",
+      "percent_of_bachelor_degrees_latina_women",
+      "percent_of_bachelor_degrees_native_hawaiian_or_other_pacific_islander_men",
+      "percent_of_bachelor_degrees_native_hawaiian_or_other_pacific_islander_total",
+      "percent_of_bachelor_degrees_native_hawaiian_or_other_pacific_islander_women",
+      "percent_of_bachelor_degrees_men",
+      "percent_of_bachelor_degrees_women",
+      "percent_of_bachelor_degrees_white_total",
+      "percent_of_bachelor_degrees_white_men",
+      "percent_of_bachelor_degrees_white_women",
+      "percent_of_bachelor_degrees_awarded_in_science,_technology,_engineering,_and_math",
+      "percent_of_bachelor_degrees_awarded_in_arts_and_humanities",
+      "percent_of_bachelor_degrees_awarded_in_education",
+      "percent_of_bachelor_degrees_awarded_in_social_sciences",
+      "percent_of_bachelor_degrees_awarded_in_health_sciences",
+      "percent_of_bachelor_degrees_awarded_in_business",
+      "percent_of_american_indian_or_alaska_native_undergraduates",
+      "percent_of_two_or_more_races_undergraduates",
+      "percent_of_asian_undergraduates",
+      "percent_of_black_or_african_american_undergraduates",
+      "percent_of_latino_undergraduates",
+      "percent_of_native_hawaiian_or_other_pacific_islander_undergraduates",
+      "percent_of_white_undergraduates",
+      "percent_of_women_undergraduates",
+      "percent_of_men_undergraduates",
+      "percent_of_nonresident_undergraduates",
+      "percent_of_undergraduates_race_ethnicity_unknown",
+      "percent_of_undergraduates_age_25_to_64",
+      "percent_of_full_time,_first_time_degree_seeking_undergraduates",
+      "percent_of_undergraduates_enrolled_exclusively_in_distance_education_courses",
+      "percent_of_first_time,_full_time_international_undergraduates",
+      "total_enrollment",
+      "number_of_first_time,_full_time_degree_certificate_seeking_students_submitting_act_scores",
+      "percentage_of_first_time,_full_time_degree_certificate_seeking_students_submitting_act_scores",
+      "act_english___25th_percentile_score",
+      "act_english___75th_percentile_score",
+      "act_math___25th_percentile_score",
+      "act_math___75th_percentile_score",
+      "number_of_first_time_degree_certificate_seeking_students_submitting_sat_scores",
+      "percent_of_first_time_degree_certificate_seeking_students_submitting_sat_scores",
+      "sat_evidence_based_reading_and_writing___25th_percentile_score",
+      "sat_evidence_based_reading_and_writing___75th_percentile_score",
+      "sat_math___25th_percentile_score",
+      "sat_math___75th_percentile_score",
+      "total_percent_of_applicants_admitted",
+      "total_percent_of_men_admitted",
+      "total_percent_of_women_admitted",
+      "bachelor's_degrees_awarded",
+      "number_of_students_receiving_a_bachelor's_degree",
+      "endowment_assets_gasb_per_student",
+      "instructional_expenses_gasb_per_student",
+      "endowment_assets_fasb_per_student",
+      "instructional_expenses_fasb_per_fte",
+      "instructional_expenses_per_fte",
+      "bachelor's_degree_graduation_rate_within_4_years___total",
+      "bachelor's_degree_graduation_rate_within_5_years___total",
+      "bachelor's_degree_graduation_rate_within_6_years___american_indian_or_alaska_native",
+      "bachelor's_degree_graduation_rate_within_6_years___asian,_native_hawaiian,_pacific_islander",
+      "bachelor's_degree_graduation_rate_within_6_years___asian",
+      "bachelor's_degree_graduation_rate_within_6_years___black,_non_latino",
+      "bachelor's_degree_graduation_rate_within_6_years___latino",
+      "bachelor's_degree_graduation_rate_within_6_years___men",
+      "bachelor's_degree_graduation_rate_within_6_years___native_hawaiian_or_other_pacific_islander",
+      "bachelor's_degree_graduation_rate_bachelor_degree_within_6_years___total",
+      "bachelor's_degree_graduation_rate_bachelor_degree_within_6_years___women",
+      "bachelor's_degree_graduation_rate_within_6_years___white_non_latino",
+      "transfer_out_rate",
+      "cost_of_attendance_for_in_state_students_living_on_campus",
+      "average_cost_of_attendance_out_of_state",
+      "average_cost_of_attendance_in_district",
+      "average_cost_of_attendance_in_state",
+      "percent_full_time,_first_time,_pell_grant_recipients_still_enrolled_at_same_institution___8_years",
+      "percent_full_time,_first_time,_pell_grant_recipients_receiving_an_award___6_years",
+      "number_of_american_indian_or_alaska_native_men",
+      "number_of_american_indian_or_alaska_native_total",
+      "number_of_american_indian_or_alaska_native_women",
+      "number_of_asian_men",
+      "number_of_asian_total",
+      "number_of_asian_women",
+      "number_of_black_or_african_american_men",
+      "number_of_black_or_african_american_total",
+      "number_of_black_or_african_american_women",
+      "number_of_latino_men",
+      "number_of_latino_total",
+      "number_of_latina_women",
+      "number_of_native_hawaiian_or_other_pacific_islander_men",
+      "number_of_native_hawaiian_or_other_pacific_islander_total",
+      "number_of_native_hawaiian_or_other_pacific_islander_women",
+      "number_of_men_enrolled",
+      "number_of_undergraduates_enrolled",
+      "grand_total_of_women_undergraduates_enrolled",
+      "number_of_white_men_undergraduates_enrolled",
+      "total_number_of_white_undergraduates_enrolled",
+      "number_of_white_women_undergraduates_enrolled",
+      "degree_level",
+      "student_status",
+      "first_time,_full_time_retention_rate",
+      "student_to_faculty_ratio",
+      "reported_first_time,_full_time_undergraduate_enrollment",
+      "carnegie_classification",
+      "city_of_institution",
+      "institutional_category",
+      "institution_name_results",
+      "institution_size_category_results",
+      "degree_of_urbanization",
+      "sector_of_institution",
+      "state_of_institution",
+      "latitude",
+      "longitude",
+      "institution_web_address",
+      "institution_type",
+      "open_admissions_policy",
+      "out_of_state_average_tuition_for_first_time,_full_time_undergraduates",
+      "average_in_state_tuition_for_first_time,_full_time_undergraduates",
+      "average_amount_of_loans_awarded_to_first_time,_full_time_undergraduates",
+      "average_amount_of_federal_grant_aid_awarded_to_first_time,_full_time_undergraduates",
+      "average_amount_of_institutional_grant_aid_awarded_to_first_time,_full_time_undergraduates",
+      "average_amount_of_federal,_state,_local,_or_institutional_grant_aid_awarded",
+      "number_of_first_time,_full_time_undergraduates_awarded_federal,_state,_local_or_institutional_grant_aid",
+      "percent_of_first_time,_full_time_undergraduates_awarded_federal,_state,_local_or_institutional_grant_aid",
+      "total_amount_of_federal,_state,_local_or_institutional_grant_aid_awarded_to_first_time,_full_time_undergraduates",
+      "number_of_first_time,_full_time_undergraduates_awarded_pell_grants",
+      "percent_of_first_time,_full_time_undergraduates_awarded_pell_grants",
+      "average_net_price_after_grants,_2018_19",
+      "average_net_price_after_grants,_2019_20",
+      "average_net_price_after_grants,_2020_21",
+      "average_net_price_for_low_income_students,_2018_19",
+      "average_net_price_for_low_income_students,_2019_20",
+      "average_net_price_for_low_income_students,_2020_21",
+      "average_net_price_after_grants__students_awarded_a_grant_or_scholarship,_2020_21",
+      "number_awarded_a_grant_or_scholarship___low_income_students_in_state,_2020_21",
+      "number_awarded_a_grant_or_scholarship___low_income_students,_2020_21",
+      "average_net_price_after_grants___low_income_students_awarded_financial_aid,_2020_21",
+      "asian_american_or_native_american_pacific_islander_serving_institution_(aanapisi)",
+      "alaska_native,_native_hawaiian_serving_institution_(annhsi)",
+      "cohort_default_rate",
+      "median_debt_for_dependent_students",
+      "median_debt_of_completers",
+      "historically_black_college_or_university_(hbcu)",
+      "hispanic_serving_institution_(hsi)",
+      "median_debt_for_independent_students",
+      "instructional_expenditures_per_student",
+      "median_earnings_of_dependent_students_working_and_not_enrolled_10_years_after_entry",
+      "median_earnings_of_independent_students_working_and_not_enrolled_10_years_after_entry",
+      "median_earnings_of_students_working_and_not_enrolled_10_years_after_entry",
+      "native_american_non_tribal_institution_(nanti)",
+      "predominantly_black_institution_(pbi)",
+      "percent_of_full_time_faculty",
+      "percent_of_part_time_undergraduates",
+      "tribal_college_or_university_(tcu)",
+      "public_institution_gasb_endowment_assets",
+      "private_not_for_profit_or_public_institution_fasb_endowment_assets",
+      "number_of_undergraduates_age_25_and_older",
+      "percent_of_undergraduates_age_25_and_older"
+    ],
+    "memory_usage_mb": 77.84
+  },
+  "missing_values": {
+    "columns_analyzed": 270,
+    "columns_with_missing": 3,
+    "total_rows": 21461,
+    "per_column_stats": {
+      "institution_id": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "institution_name": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "city": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "state_abbreviation": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "sector_name": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "sector": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "msi_status": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "msi_type": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "hbcu": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "pbi": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "annhi": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "tribal": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "aanapii": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "hsi": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "nanti": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "average_work_study_award": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "cost_of_attendance:_in_state,_on_campus": {
+        "missing_count": 12337,
+        "missing_percentage": 57.49,
+        "non_missing_count": 9124
+      },
+      "cost_of_attendance:_out_of_state": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "cost_of_attendance:_in_district": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "cost_of_attendance:_in_state": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "annual_income_estimate": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "student_family_earnings_ceiling": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "state_minimum_wage": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "income_earned_from_working_10_hours_a_week_at_state's_minimum_wage": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "net_price": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "affordability_gap_(net_price_minus_income_earned_working_10_hrs_at_min_wage)": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "weekly_hours_to_close_gap": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "100%_ttd_affordability_gap": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "150%_ttd_affordability_gap": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "cpi_index": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "monthly_center_based_child_care_cost": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "annual_center_based_child_care_cost": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "adjusted_monthly_center_based_child_care_cost": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "monthly_home_based_child_care_cost": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "adjusted_monthly_home_based_child_care_cost": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "annual_home_based_child_care_cost": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "student_parent_affordability_gap:_center_based_care": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "student_parent_affordability_gap:_home_based_care": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "weekly_hours_to_close_gap:_center_based_care": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "weekly_hours_to_close_gap:_home_based_care": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "100%_ttd_student_parent_affordability_gap:_center_based_care": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "100%_ttd_student_parent_affordability_gap:_home_based_care": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "150%_ttd_student_parent_affordability_gap:_center_based_care": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "150%_ttd_student_parent_affordability_gap:_home_based_care": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "adjusted_annual_home_based_child_care_cost": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "adjusted_annual_center_based_child_care_cost": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "highest_degree_offered_name": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "highest_degree_offered": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "highest_level_offered_name": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "highest_level_offered": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "combined_statistical_area": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "degree_of_localization_name": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "degree_of_localization": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "institution_level_name": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "institution_level": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "institution_size_category_name": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "institution_size_category": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "county_name": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "zip_code": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "state": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "state_code_(fips)": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "latitude": {
+        "missing_count": 162,
+        "missing_percentage": 0.75,
+        "non_missing_count": 21299
+      },
+      "longitude": {
+        "missing_count": 162,
+        "missing_percentage": 0.75,
+        "non_missing_count": 21299
+      },
+      "region": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "region_#": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "sub_region": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "sub_region_#": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "admissions_website": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "institution_status": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "2000_carnegie_classification_name": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "2000_carnegie_classification": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "2015_carnegie_classification_name": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "2015_carnegie_classification": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "2018_carnegie_classification_name": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "2018_carnegie_classification": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "2021_carnegie_classification_name": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "2021_carnegie_classification": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "county_code": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "control_of_institution": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_bachelor_degrees_grand_total": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_bachelor_degrees_total_men": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_bachelor_degrees_total_women": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_bachelor_degrees_white_total": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_bachelor_degrees_white_men": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_bachelor_degrees_white_women": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_bachelor_degrees_american_indian_or_alaska_native_men": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_bachelor_degrees_american_indian_or_alaska_native_total": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_bachelor_degrees_american_indian_or_alaska_native_women": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_bachelor_degrees_asian_men": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_bachelor_degrees_asian_total": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_bachelor_degrees_asian_women": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_bachelor_degrees_black_or_african_american_men": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_bachelor_degrees_black_or_african_american_total": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_bachelor_degrees_black_or_african_american_women": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_bachelor_degrees_latino_men": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_bachelor_degrees_latino_total": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_bachelor_degrees_latina_women": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_bachelor_degrees_native_hawaiian_or_other_pacific_islander_men": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_bachelor_degrees_native_hawaiian_or_other_pacific_islander_total": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_bachelor_degrees_native_hawaiian_or_other_pacific_islander_women": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_degrees_awarded_in_science,_technology,_engineering,_and_math": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_degrees_awarded_in_arts_and_humanities": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_degrees_awarded_in_education": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_degrees_awarded_in_social_sciences": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_degrees_awarded_in_health_sciences": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_degrees_awarded_in_business": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_bachelor_degrees_american_indian_or_alaska_native_men": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_bachelor_degrees_american_indian_or_alaska_native_total": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_bachelor_degrees_american_indian_or_alaska_native_women": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_bachelor_degrees_asian_men": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_bachelor_degrees_asian_total": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_bachelor_degrees_asian_women": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_bachelor_degrees_black_or_african_american_men": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_bachelor_degrees_black_or_african_american_total": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_bachelor_degrees_black_or_african_american_women": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_bachelor_degrees_latino_men": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_bachelor_degrees_latino_total": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_bachelor_degrees_latina_women": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_bachelor_degrees_native_hawaiian_or_other_pacific_islander_men": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_bachelor_degrees_native_hawaiian_or_other_pacific_islander_total": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_bachelor_degrees_native_hawaiian_or_other_pacific_islander_women": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_bachelor_degrees_men": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_bachelor_degrees_women": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_bachelor_degrees_white_total": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_bachelor_degrees_white_men": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_bachelor_degrees_white_women": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_bachelor_degrees_awarded_in_science,_technology,_engineering,_and_math": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_bachelor_degrees_awarded_in_arts_and_humanities": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_bachelor_degrees_awarded_in_education": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_bachelor_degrees_awarded_in_social_sciences": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_bachelor_degrees_awarded_in_health_sciences": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_bachelor_degrees_awarded_in_business": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_american_indian_or_alaska_native_undergraduates": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_two_or_more_races_undergraduates": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_asian_undergraduates": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_black_or_african_american_undergraduates": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_latino_undergraduates": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_native_hawaiian_or_other_pacific_islander_undergraduates": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_white_undergraduates": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_women_undergraduates": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_men_undergraduates": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_nonresident_undergraduates": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_undergraduates_race_ethnicity_unknown": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_undergraduates_age_25_to_64": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_full_time,_first_time_degree_seeking_undergraduates": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_undergraduates_enrolled_exclusively_in_distance_education_courses": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_first_time,_full_time_international_undergraduates": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "total_enrollment": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_first_time,_full_time_degree_certificate_seeking_students_submitting_act_scores": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percentage_of_first_time,_full_time_degree_certificate_seeking_students_submitting_act_scores": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "act_english___25th_percentile_score": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "act_english___75th_percentile_score": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "act_math___25th_percentile_score": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "act_math___75th_percentile_score": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_first_time_degree_certificate_seeking_students_submitting_sat_scores": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_first_time_degree_certificate_seeking_students_submitting_sat_scores": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "sat_evidence_based_reading_and_writing___25th_percentile_score": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "sat_evidence_based_reading_and_writing___75th_percentile_score": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "sat_math___25th_percentile_score": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "sat_math___75th_percentile_score": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "total_percent_of_applicants_admitted": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "total_percent_of_men_admitted": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "total_percent_of_women_admitted": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "bachelor's_degrees_awarded": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_students_receiving_a_bachelor's_degree": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "endowment_assets_gasb_per_student": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "instructional_expenses_gasb_per_student": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "endowment_assets_fasb_per_student": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "instructional_expenses_fasb_per_fte": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "instructional_expenses_per_fte": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "bachelor's_degree_graduation_rate_within_4_years___total": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "bachelor's_degree_graduation_rate_within_5_years___total": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "bachelor's_degree_graduation_rate_within_6_years___american_indian_or_alaska_native": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "bachelor's_degree_graduation_rate_within_6_years___asian,_native_hawaiian,_pacific_islander": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "bachelor's_degree_graduation_rate_within_6_years___asian": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "bachelor's_degree_graduation_rate_within_6_years___black,_non_latino": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "bachelor's_degree_graduation_rate_within_6_years___latino": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "bachelor's_degree_graduation_rate_within_6_years___men": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "bachelor's_degree_graduation_rate_within_6_years___native_hawaiian_or_other_pacific_islander": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "bachelor's_degree_graduation_rate_bachelor_degree_within_6_years___total": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "bachelor's_degree_graduation_rate_bachelor_degree_within_6_years___women": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "bachelor's_degree_graduation_rate_within_6_years___white_non_latino": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "transfer_out_rate": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "cost_of_attendance_for_in_state_students_living_on_campus": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "average_cost_of_attendance_out_of_state": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "average_cost_of_attendance_in_district": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "average_cost_of_attendance_in_state": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_full_time,_first_time,_pell_grant_recipients_still_enrolled_at_same_institution___8_years": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_full_time,_first_time,_pell_grant_recipients_receiving_an_award___6_years": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_american_indian_or_alaska_native_men": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_american_indian_or_alaska_native_total": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_american_indian_or_alaska_native_women": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_asian_men": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_asian_total": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_asian_women": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_black_or_african_american_men": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_black_or_african_american_total": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_black_or_african_american_women": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_latino_men": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_latino_total": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_latina_women": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_native_hawaiian_or_other_pacific_islander_men": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_native_hawaiian_or_other_pacific_islander_total": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_native_hawaiian_or_other_pacific_islander_women": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_men_enrolled": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_undergraduates_enrolled": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "grand_total_of_women_undergraduates_enrolled": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_white_men_undergraduates_enrolled": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "total_number_of_white_undergraduates_enrolled": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_white_women_undergraduates_enrolled": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "degree_level": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "student_status": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "first_time,_full_time_retention_rate": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "student_to_faculty_ratio": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "reported_first_time,_full_time_undergraduate_enrollment": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "carnegie_classification": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "city_of_institution": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "institutional_category": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "institution_name_results": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "institution_size_category_results": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "degree_of_urbanization": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "sector_of_institution": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "state_of_institution": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "institution_web_address": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "institution_type": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "open_admissions_policy": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "out_of_state_average_tuition_for_first_time,_full_time_undergraduates": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "average_in_state_tuition_for_first_time,_full_time_undergraduates": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "average_amount_of_loans_awarded_to_first_time,_full_time_undergraduates": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "average_amount_of_federal_grant_aid_awarded_to_first_time,_full_time_undergraduates": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "average_amount_of_institutional_grant_aid_awarded_to_first_time,_full_time_undergraduates": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "average_amount_of_federal,_state,_local,_or_institutional_grant_aid_awarded": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_first_time,_full_time_undergraduates_awarded_federal,_state,_local_or_institutional_grant_aid": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_first_time,_full_time_undergraduates_awarded_federal,_state,_local_or_institutional_grant_aid": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "total_amount_of_federal,_state,_local_or_institutional_grant_aid_awarded_to_first_time,_full_time_undergraduates": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_first_time,_full_time_undergraduates_awarded_pell_grants": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_first_time,_full_time_undergraduates_awarded_pell_grants": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "average_net_price_after_grants,_2018_19": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "average_net_price_after_grants,_2019_20": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "average_net_price_after_grants,_2020_21": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "average_net_price_for_low_income_students,_2018_19": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "average_net_price_for_low_income_students,_2019_20": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "average_net_price_for_low_income_students,_2020_21": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "average_net_price_after_grants__students_awarded_a_grant_or_scholarship,_2020_21": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_awarded_a_grant_or_scholarship___low_income_students_in_state,_2020_21": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_awarded_a_grant_or_scholarship___low_income_students,_2020_21": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "average_net_price_after_grants___low_income_students_awarded_financial_aid,_2020_21": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "asian_american_or_native_american_pacific_islander_serving_institution_(aanapisi)": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "alaska_native,_native_hawaiian_serving_institution_(annhsi)": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "cohort_default_rate": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "median_debt_for_dependent_students": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "median_debt_of_completers": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "historically_black_college_or_university_(hbcu)": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "hispanic_serving_institution_(hsi)": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "median_debt_for_independent_students": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "instructional_expenditures_per_student": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "median_earnings_of_dependent_students_working_and_not_enrolled_10_years_after_entry": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "median_earnings_of_independent_students_working_and_not_enrolled_10_years_after_entry": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "median_earnings_of_students_working_and_not_enrolled_10_years_after_entry": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "native_american_non_tribal_institution_(nanti)": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "predominantly_black_institution_(pbi)": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_full_time_faculty": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_part_time_undergraduates": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "tribal_college_or_university_(tcu)": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "public_institution_gasb_endowment_assets": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "private_not_for_profit_or_public_institution_fasb_endowment_assets": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "number_of_undergraduates_age_25_and_older": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      },
+      "percent_of_undergraduates_age_25_and_older": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "non_missing_count": 21461
+      }
+    },
+    "columns_with_missing_list": [
+      "cost_of_attendance:_in_state,_on_campus",
+      "latitude",
+      "longitude"
+    ]
+  },
+  "outliers": {
+    "method": "iqr",
+    "columns_analyzed": 244,
+    "columns_with_outliers": 197,
+    "per_column_stats": {
+      "sector": {
+        "outlier_count": 30,
+        "outlier_percentage": 0.14,
+        "lower_bound": -4.0,
+        "upper_bound": 12.0,
+        "min_value": 0.0,
+        "max_value": 99.0,
+        "mean": 4.180094124225339,
+        "median": 3.0
+      },
+      "msi_status": {
+        "outlier_count": 3857,
+        "outlier_percentage": 17.97,
+        "lower_bound": 1.0,
+        "upper_bound": 1.0,
+        "min_value": 0.0,
+        "max_value": 1.0,
+        "mean": 0.8202786449839243,
+        "median": 1.0
+      },
+      "hbcu": {
+        "outlier_count": 452,
+        "outlier_percentage": 2.11,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 1.0,
+        "mean": 0.021061460323377287,
+        "median": 0.0
+      },
+      "pbi": {
+        "outlier_count": 282,
+        "outlier_percentage": 1.31,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 1.0,
+        "mean": 0.013140114626531849,
+        "median": 0.0
+      },
+      "annhi": {
+        "outlier_count": 77,
+        "outlier_percentage": 0.36,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 1.0,
+        "mean": 0.0035879036391594054,
+        "median": 0.0
+      },
+      "tribal": {
+        "outlier_count": 107,
+        "outlier_percentage": 0.5,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 1.0,
+        "mean": 0.004985788173896836,
+        "median": 0.0
+      },
+      "aanapii": {
+        "outlier_count": 964,
+        "outlier_percentage": 4.49,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 1.0,
+        "mean": 0.04491868971622944,
+        "median": 0.0
+      },
+      "hsi": {
+        "outlier_count": 2504,
+        "outlier_percentage": 11.67,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 1.0,
+        "mean": 0.11667676249941755,
+        "median": 0.0
+      },
+      "nanti": {
+        "outlier_count": 146,
+        "outlier_percentage": 0.68,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 1.0,
+        "mean": 0.006803038069055496,
+        "median": 0.0
+      },
+      "average_work_study_award": {
+        "outlier_count": 1232,
+        "outlier_percentage": 5.74,
+        "lower_bound": 1201.0,
+        "upper_bound": 3049.0,
+        "min_value": 339.0,
+        "max_value": 4761.0,
+        "mean": 2220.3976049578305,
+        "median": 2125.0
+      },
+      "cost_of_attendance:_out_of_state": {
+        "outlier_count": 1759,
+        "outlier_percentage": 8.2,
+        "lower_bound": -899.0,
+        "upper_bound": 55893.0,
+        "min_value": 0.0,
+        "max_value": 85755.0,
+        "mean": 29976.879595545408,
+        "median": 26363.0
+      },
+      "cost_of_attendance:_in_district": {
+        "outlier_count": 3459,
+        "outlier_percentage": 16.12,
+        "lower_bound": 3882.5,
+        "upper_bound": 41046.5,
+        "min_value": 0.0,
+        "max_value": 85755.0,
+        "mean": 26258.022575835235,
+        "median": 22073.5
+      },
+      "cost_of_attendance:_in_state": {
+        "outlier_count": 3507,
+        "outlier_percentage": 16.34,
+        "lower_bound": 4539.5,
+        "upper_bound": 40663.5,
+        "min_value": 0.0,
+        "max_value": 85755.0,
+        "mean": 26379.65765807744,
+        "median": 22113.0
+      },
+      "annual_income_estimate": {
+        "outlier_count": 65,
+        "outlier_percentage": 0.3,
+        "lower_bound": 812.5,
+        "upper_bound": 8312.5,
+        "min_value": 3395.0,
+        "max_value": 8750.0,
+        "mean": 4730.54447602628,
+        "median": 4375.0
+      },
+      "state_minimum_wage": {
+        "outlier_count": 65,
+        "outlier_percentage": 0.3,
+        "lower_bound": 1.625,
+        "upper_bound": 16.625,
+        "min_value": 6.79,
+        "max_value": 17.5,
+        "mean": 9.46108895205256,
+        "median": 8.75
+      },
+      "income_earned_from_working_10_hours_a_week_at_state's_minimum_wage": {
+        "outlier_count": 65,
+        "outlier_percentage": 0.3,
+        "lower_bound": 16.25,
+        "upper_bound": 166.25,
+        "min_value": 67.9,
+        "max_value": 175.0,
+        "mean": 94.61088952052559,
+        "median": 87.5
+      },
+      "net_price": {
+        "outlier_count": 419,
+        "outlier_percentage": 1.95,
+        "lower_bound": -7112.5,
+        "upper_bound": 41123.5,
+        "min_value": -6023.0,
+        "max_value": 112070.0,
+        "mean": 17742.443199291738,
+        "median": 16848.5
+      },
+      "affordability_gap_(net_price_minus_income_earned_working_10_hrs_at_min_wage)": {
+        "outlier_count": 391,
+        "outlier_percentage": 1.82,
+        "lower_bound": -11885.5,
+        "upper_bound": 36598.5,
+        "min_value": -13023.0,
+        "max_value": 107020.0,
+        "mean": 13029.806299799637,
+        "median": 12217.0
+      },
+      "weekly_hours_to_close_gap": {
+        "outlier_count": 367,
+        "outlier_percentage": 1.71,
+        "lower_bound": -29.800000000000004,
+        "upper_bound": 85.4,
+        "min_value": -18.6,
+        "max_value": 211.9,
+        "mean": 29.60543777084013,
+        "median": 26.4
+      },
+      "100%_ttd_affordability_gap": {
+        "outlier_count": 699,
+        "outlier_percentage": 3.26,
+        "lower_bound": -45036.0,
+        "upper_bound": 117876.0,
+        "min_value": -43516.0,
+        "max_value": 303428.0,
+        "mean": 40473.08503797586,
+        "median": 33408.0
+      },
+      "150%_ttd_affordability_gap": {
+        "outlier_count": 699,
+        "outlier_percentage": 3.26,
+        "lower_bound": -67554.0,
+        "upper_bound": 176814.0,
+        "min_value": -65274.0,
+        "max_value": 455142.0,
+        "mean": 60709.627556963795,
+        "median": 50112.0
+      },
+      "student_parent_affordability_gap:_center_based_care": {
+        "outlier_count": 518,
+        "outlier_percentage": 2.41,
+        "lower_bound": 5311.695000000011,
+        "upper_bound": 54609.81499999999,
+        "min_value": 4136.34,
+        "max_value": 127561.0,
+        "mean": 30719.644429663113,
+        "median": 29757.235
+      },
+      "student_parent_affordability_gap:_home_based_care": {
+        "outlier_count": 471,
+        "outlier_percentage": 2.19,
+        "lower_bound": 5639.225000000006,
+        "upper_bound": 53891.58499999999,
+        "min_value": 3911.79,
+        "max_value": 127203.9,
+        "mean": 30477.469759330877,
+        "median": 29516.055
+      },
+      "weekly_hours_to_close_gap:_center_based_care": {
+        "outlier_count": 372,
+        "outlier_percentage": 1.73,
+        "lower_bound": -0.7649999999999935,
+        "upper_bound": 134.71499999999997,
+        "min_value": 7.35,
+        "max_value": 252.6,
+        "mean": 68.6314908438563,
+        "median": 64.85499999999999
+      },
+      "weekly_hours_to_close_gap:_home_based_care": {
+        "outlier_count": 352,
+        "outlier_percentage": 1.64,
+        "lower_bound": -1.339999999999982,
+        "upper_bound": 135.14,
+        "min_value": 5.22,
+        "max_value": 259.37,
+        "mean": 68.49002562788313,
+        "median": 64.56
+      },
+      "100%_ttd_student_parent_affordability_gap:_center_based_care": {
+        "outlier_count": 386,
+        "outlier_percentage": 1.8,
+        "lower_bound": -39465.98999999999,
+        "upper_bound": 218240.49,
+        "min_value": 8272.68,
+        "max_value": 363979.72,
+        "mean": 93243.22804762128,
+        "median": 82930.20999999999
+      },
+      "100%_ttd_student_parent_affordability_gap:_home_based_care": {
+        "outlier_count": 348,
+        "outlier_percentage": 1.62,
+        "lower_bound": -38732.51999999999,
+        "upper_bound": 216087.96,
+        "min_value": 10767.22,
+        "max_value": 376090.04,
+        "mean": 92390.49738595591,
+        "median": 82775.1
+      },
+      "150%_ttd_student_parent_affordability_gap:_center_based_care": {
+        "outlier_count": 548,
+        "outlier_percentage": 2.55,
+        "lower_bound": -7997.000000000015,
+        "upper_bound": 305889.72000000003,
+        "min_value": 16545.36,
+        "max_value": 545969.58,
+        "mean": 154913.73969246543,
+        "median": 145308.08
+      },
+      "150%_ttd_student_parent_affordability_gap:_home_based_care": {
+        "outlier_count": 503,
+        "outlier_percentage": 2.34,
+        "lower_bound": -6565.400000000009,
+        "upper_bound": 302332.2,
+        "min_value": 21534.44,
+        "max_value": 564135.06,
+        "mean": 153624.34242486372,
+        "median": 145261.09999999998
+      },
+      "degree_of_localization": {
+        "outlier_count": 1923,
+        "outlier_percentage": 8.96,
+        "lower_bound": -4.5,
+        "upper_bound": 39.5,
+        "min_value": -3.0,
+        "max_value": 43.0,
+        "mean": 20.44033362844229,
+        "median": 21.0
+      },
+      "institution_level": {
+        "outlier_count": 30,
+        "outlier_percentage": 0.14,
+        "lower_bound": -0.5,
+        "upper_bound": 3.5,
+        "min_value": -3.0,
+        "max_value": 3.0,
+        "mean": 1.7000605749965052,
+        "median": 1.0
+      },
+      "institution_size_category": {
+        "outlier_count": 2609,
+        "outlier_percentage": 12.16,
+        "lower_bound": -0.5,
+        "upper_bound": 3.5,
+        "min_value": -2.0,
+        "max_value": 5.0,
+        "mean": 1.8935277946041658,
+        "median": 2.0
+      },
+      "latitude": {
+        "outlier_count": 510,
+        "outlier_percentage": 2.38,
+        "lower_bound": 23.03500000000001,
+        "upper_bound": 52.43499999999999,
+        "min_value": -14.32,
+        "max_value": 71.32,
+        "mean": 37.55372177097516,
+        "median": 38.85
+      },
+      "longitude": {
+        "outlier_count": 133,
+        "outlier_percentage": 0.62,
+        "lower_bound": -125.53000000000003,
+        "upper_bound": -50.88999999999998,
+        "min_value": -170.74,
+        "max_value": 171.38,
+        "mean": -90.51813183717545,
+        "median": -86.3
+      },
+      "control_of_institution": {
+        "outlier_count": 30,
+        "outlier_percentage": 0.14,
+        "lower_bound": -2.0,
+        "upper_bound": 6.0,
+        "min_value": -3.0,
+        "max_value": 3.0,
+        "mean": 1.9196216392525978,
+        "median": 2.0
+      },
+      "number_of_bachelor_degrees_grand_total": {
+        "outlier_count": 10046,
+        "outlier_percentage": 46.81,
+        "lower_bound": 344.0,
+        "upper_bound": 344.0,
+        "min_value": 0.0,
+        "max_value": 26612.0,
+        "mean": 649.3058105400494,
+        "median": 344.0
+      },
+      "number_of_bachelor_degrees_total_men": {
+        "outlier_count": 10039,
+        "outlier_percentage": 46.78,
+        "lower_bound": 126.0,
+        "upper_bound": 126.0,
+        "min_value": 0.0,
+        "max_value": 8604.0,
+        "mean": 261.4407995899539,
+        "median": 126.0
+      },
+      "number_of_bachelor_degrees_total_women": {
+        "outlier_count": 10054,
+        "outlier_percentage": 46.85,
+        "lower_bound": 207.5,
+        "upper_bound": 207.5,
+        "min_value": 0.0,
+        "max_value": 18249.0,
+        "mean": 382.28402683938305,
+        "median": 207.5
+      },
+      "number_of_bachelor_degrees_white_total": {
+        "outlier_count": 10054,
+        "outlier_percentage": 46.85,
+        "lower_bound": 177.5,
+        "upper_bound": 177.5,
+        "min_value": 0.0,
+        "max_value": 17958.0,
+        "mean": 347.5641629001444,
+        "median": 177.5
+      },
+      "number_of_bachelor_degrees_white_men": {
+        "outlier_count": 10009,
+        "outlier_percentage": 46.64,
+        "lower_bound": 67.0,
+        "upper_bound": 67.0,
+        "min_value": 0.0,
+        "max_value": 5613.0,
+        "mean": 143.3963934579004,
+        "median": 67.0
+      },
+      "number_of_bachelor_degrees_white_women": {
+        "outlier_count": 10014,
+        "outlier_percentage": 46.66,
+        "lower_bound": 111.0,
+        "upper_bound": 111.0,
+        "min_value": 0.0,
+        "max_value": 12345.0,
+        "mean": 204.43353059037324,
+        "median": 111.0
+      },
+      "number_of_bachelor_degrees_american_indian_or_alaska_native_men": {
+        "outlier_count": 3834,
+        "outlier_percentage": 17.86,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 134.0,
+        "mean": 0.7227529006104095,
+        "median": 0.0
+      },
+      "number_of_bachelor_degrees_american_indian_or_alaska_native_total": {
+        "outlier_count": 8298,
+        "outlier_percentage": 38.67,
+        "lower_bound": 1.0,
+        "upper_bound": 1.0,
+        "min_value": 0.0,
+        "max_value": 437.0,
+        "mean": 2.5461534877219143,
+        "median": 1.0
+      },
+      "number_of_bachelor_degrees_american_indian_or_alaska_native_women": {
+        "outlier_count": 4852,
+        "outlier_percentage": 22.61,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 303.0,
+        "mean": 1.2918782908531756,
+        "median": 0.0
+      },
+      "number_of_bachelor_degrees_asian_men": {
+        "outlier_count": 9259,
+        "outlier_percentage": 43.14,
+        "lower_bound": 2.0,
+        "upper_bound": 2.0,
+        "min_value": 0.0,
+        "max_value": 1588.0,
+        "mean": 17.219048506593357,
+        "median": 2.0
+      },
+      "number_of_bachelor_degrees_asian_total": {
+        "outlier_count": 9770,
+        "outlier_percentage": 45.52,
+        "lower_bound": 7.0,
+        "upper_bound": 7.0,
+        "min_value": 0.0,
+        "max_value": 3451.0,
+        "mean": 39.696332882903874,
+        "median": 7.0
+      },
+      "number_of_bachelor_degrees_asian_women": {
+        "outlier_count": 9629,
+        "outlier_percentage": 44.87,
+        "lower_bound": 4.0,
+        "upper_bound": 4.0,
+        "min_value": 0.0,
+        "max_value": 1863.0,
+        "mean": 21.945762080052187,
+        "median": 4.0
+      },
+      "number_of_bachelor_degrees_black_or_african_american_men": {
+        "outlier_count": 9794,
+        "outlier_percentage": 45.64,
+        "lower_bound": 9.0,
+        "upper_bound": 9.0,
+        "min_value": 0.0,
+        "max_value": 837.0,
+        "mean": 20.084618610502773,
+        "median": 9.0
+      },
+      "number_of_bachelor_degrees_black_or_african_american_total": {
+        "outlier_count": 9940,
+        "outlier_percentage": 46.32,
+        "lower_bound": 23.0,
+        "upper_bound": 23.0,
+        "min_value": 0.0,
+        "max_value": 2639.0,
+        "mean": 55.97702809747915,
+        "median": 23.0
+      },
+      "number_of_bachelor_degrees_black_or_african_american_women": {
+        "outlier_count": 9899,
+        "outlier_percentage": 46.13,
+        "lower_bound": 12.0,
+        "upper_bound": 12.0,
+        "min_value": 0.0,
+        "max_value": 2046.0,
+        "mean": 34.829364894459715,
+        "median": 12.0
+      },
+      "number_of_bachelor_degrees_latino_men": {
+        "outlier_count": 9808,
+        "outlier_percentage": 45.7,
+        "lower_bound": 9.0,
+        "upper_bound": 9.0,
+        "min_value": 0.0,
+        "max_value": 3342.0,
+        "mean": 32.93923861889008,
+        "median": 9.0
+      },
+      "number_of_bachelor_degrees_latino_total": {
+        "outlier_count": 9951,
+        "outlier_percentage": 46.37,
+        "lower_bound": 26.0,
+        "upper_bound": 26.0,
+        "min_value": 0.0,
+        "max_value": 8420.0,
+        "mean": 88.15143749126322,
+        "median": 26.0
+      },
+      "number_of_bachelor_degrees_latina_women": {
+        "outlier_count": 9936,
+        "outlier_percentage": 46.3,
+        "lower_bound": 16.0,
+        "upper_bound": 16.0,
+        "min_value": 0.0,
+        "max_value": 5078.0,
+        "mean": 54.68067657611481,
+        "median": 16.0
+      },
+      "number_of_bachelor_degrees_native_hawaiian_or_other_pacific_islander_men": {
+        "outlier_count": 2704,
+        "outlier_percentage": 12.6,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 85.0,
+        "mean": 0.40450118820185454,
+        "median": 0.0
+      },
+      "number_of_bachelor_degrees_native_hawaiian_or_other_pacific_islander_total": {
+        "outlier_count": 4075,
+        "outlier_percentage": 18.99,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 225.0,
+        "mean": 0.9610456176319836,
+        "median": 0.0
+      },
+      "number_of_bachelor_degrees_native_hawaiian_or_other_pacific_islander_women": {
+        "outlier_count": 3132,
+        "outlier_percentage": 14.59,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 140.0,
+        "mean": 0.5567774101859186,
+        "median": 0.0
+      },
+      "number_of_degrees_awarded_in_science,_technology,_engineering,_and_math": {
+        "outlier_count": 9966,
+        "outlier_percentage": 46.44,
+        "lower_bound": 26.0,
+        "upper_bound": 26.0,
+        "min_value": 0.0,
+        "max_value": 3890.0,
+        "mean": 62.12343320441732,
+        "median": 26.0
+      },
+      "number_of_degrees_awarded_in_arts_and_humanities": {
+        "outlier_count": 4144,
+        "outlier_percentage": 19.31,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 1621.0,
+        "mean": 9.134756069148688,
+        "median": 0.0
+      },
+      "number_of_degrees_awarded_in_education": {
+        "outlier_count": 9941,
+        "outlier_percentage": 46.32,
+        "lower_bound": 10.0,
+        "upper_bound": 10.0,
+        "min_value": 0.0,
+        "max_value": 4178.0,
+        "mean": 26.05558920833139,
+        "median": 10.0
+      },
+      "number_of_degrees_awarded_in_social_sciences": {
+        "outlier_count": 9929,
+        "outlier_percentage": 46.27,
+        "lower_bound": 7.0,
+        "upper_bound": 7.0,
+        "min_value": 0.0,
+        "max_value": 2430.0,
+        "mean": 35.25711756208937,
+        "median": 7.0
+      },
+      "number_of_degrees_awarded_in_health_sciences": {
+        "outlier_count": 10024,
+        "outlier_percentage": 46.71,
+        "lower_bound": 27.0,
+        "upper_bound": 27.0,
+        "min_value": 0.0,
+        "max_value": 11924.0,
+        "mean": 72.1345230883929,
+        "median": 27.0
+      },
+      "number_of_degrees_awarded_in_business": {
+        "outlier_count": 10007,
+        "outlier_percentage": 46.63,
+        "lower_bound": 53.0,
+        "upper_bound": 53.0,
+        "min_value": 0.0,
+        "max_value": 6620.0,
+        "mean": 116.17669260519081,
+        "median": 53.0
+      },
+      "percent_of_bachelor_degrees_american_indian_or_alaska_native_men": {
+        "outlier_count": 3834,
+        "outlier_percentage": 17.86,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 42.857099999999996,
+        "mean": 0.12962042775266763,
+        "median": 0.0
+      },
+      "percent_of_bachelor_degrees_american_indian_or_alaska_native_total": {
+        "outlier_count": 4117,
+        "outlier_percentage": 19.18,
+        "lower_bound": -0.1335,
+        "upper_bound": 0.2225,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 0.46677224267275524,
+        "median": 0.0
+      },
+      "percent_of_bachelor_degrees_american_indian_or_alaska_native_women": {
+        "outlier_count": 4852,
+        "outlier_percentage": 22.61,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 0.337151991985462,
+        "median": 0.0
+      },
+      "percent_of_bachelor_degrees_asian_men": {
+        "outlier_count": 2910,
+        "outlier_percentage": 13.56,
+        "lower_bound": -0.94935,
+        "upper_bound": 1.5822500000000002,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 0.8545310097385956,
+        "median": 0.0
+      },
+      "percent_of_bachelor_degrees_asian_total": {
+        "outlier_count": 2718,
+        "outlier_percentage": 12.66,
+        "lower_bound": -2.8662,
+        "upper_bound": 4.777,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 2.0949543124737895,
+        "median": 0.0
+      },
+      "percent_of_bachelor_degrees_asian_women": {
+        "outlier_count": 2855,
+        "outlier_percentage": 13.3,
+        "lower_bound": -1.6401,
+        "upper_bound": 2.7335,
+        "min_value": 0.0,
+        "max_value": 80.0,
+        "mean": 1.24042393644285,
+        "median": 0.0
+      },
+      "percent_of_bachelor_degrees_black_or_african_american_men": {
+        "outlier_count": 2233,
+        "outlier_percentage": 10.4,
+        "lower_bound": -3.0732,
+        "upper_bound": 5.122,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 1.9975588043427608,
+        "median": 0.0
+      },
+      "percent_of_bachelor_degrees_black_or_african_american_total": {
+        "outlier_count": 2261,
+        "outlier_percentage": 10.54,
+        "lower_bound": -8.357099999999999,
+        "upper_bound": 13.9285,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 5.520007893388006,
+        "median": 0.0
+      },
+      "percent_of_bachelor_degrees_black_or_african_american_women": {
+        "outlier_count": 2679,
+        "outlier_percentage": 12.48,
+        "lower_bound": -4.3104000000000005,
+        "upper_bound": 7.184000000000001,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 3.5224496388798285,
+        "median": 0.0
+      },
+      "percent_of_bachelor_degrees_latino_men": {
+        "outlier_count": 2123,
+        "outlier_percentage": 9.89,
+        "lower_bound": -3.89055,
+        "upper_bound": 6.48425,
+        "min_value": 0.0,
+        "max_value": 82.35289999999999,
+        "mean": 2.310559354177345,
+        "median": 0.0
+      },
+      "percent_of_bachelor_degrees_latino_total": {
+        "outlier_count": 2165,
+        "outlier_percentage": 10.09,
+        "lower_bound": -10.5405,
+        "upper_bound": 17.5675,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 6.363045710824285,
+        "median": 0.0
+      },
+      "percent_of_bachelor_degrees_latina_women": {
+        "outlier_count": 2468,
+        "outlier_percentage": 11.5,
+        "lower_bound": -5.85945,
+        "upper_bound": 9.76575,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 4.052487088206513,
+        "median": 0.0
+      },
+      "percent_of_bachelor_degrees_native_hawaiian_or_other_pacific_islander_men": {
+        "outlier_count": 2704,
+        "outlier_percentage": 12.6,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 40.0,
+        "mean": 0.05661992917385024,
+        "median": 0.0
+      },
+      "percent_of_bachelor_degrees_native_hawaiian_or_other_pacific_islander_total": {
+        "outlier_count": 4075,
+        "outlier_percentage": 18.99,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 0.18812334933134522,
+        "median": 0.0
+      },
+      "percent_of_bachelor_degrees_native_hawaiian_or_other_pacific_islander_women": {
+        "outlier_count": 3132,
+        "outlier_percentage": 14.59,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 0.13150698476305855,
+        "median": 0.0
+      },
+      "percent_of_bachelor_degrees_men": {
+        "outlier_count": 353,
+        "outlier_percentage": 1.64,
+        "lower_bound": -57.857099999999996,
+        "upper_bound": 96.42849999999999,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 18.717906281161177,
+        "median": 0.0
+      },
+      "percent_of_bachelor_degrees_white_men": {
+        "outlier_count": 482,
+        "outlier_percentage": 2.25,
+        "lower_bound": -32.5239,
+        "upper_bound": 54.2065,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 10.982535170774897,
+        "median": 0.0
+      },
+      "percent_of_bachelor_degrees_white_women": {
+        "outlier_count": 33,
+        "outlier_percentage": 0.15,
+        "lower_bound": -49.436550000000004,
+        "upper_bound": 82.39425,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 14.897693304133078,
+        "median": 0.0
+      },
+      "percent_of_bachelor_degrees_awarded_in_science,_technology,_engineering,_and_math": {
+        "outlier_count": 1578,
+        "outlier_percentage": 7.35,
+        "lower_bound": -9.204899999999999,
+        "upper_bound": 15.341499999999998,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 4.460100242299986,
+        "median": 0.0
+      },
+      "percent_of_bachelor_degrees_awarded_in_arts_and_humanities": {
+        "outlier_count": 4144,
+        "outlier_percentage": 19.31,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 1.1176405200130468,
+        "median": 0.0
+      },
+      "percent_of_bachelor_degrees_awarded_in_education": {
+        "outlier_count": 3696,
+        "outlier_percentage": 17.22,
+        "lower_bound": -3.0157499999999997,
+        "upper_bound": 5.026249999999999,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 2.440196267648292,
+        "median": 0.0
+      },
+      "percent_of_bachelor_degrees_awarded_in_social_sciences": {
+        "outlier_count": 4008,
+        "outlier_percentage": 18.68,
+        "lower_bound": -1.9663500000000003,
+        "upper_bound": 3.2772500000000004,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 2.0303486230837335,
+        "median": 0.0
+      },
+      "percent_of_bachelor_degrees_awarded_in_health_sciences": {
+        "outlier_count": 3337,
+        "outlier_percentage": 15.55,
+        "lower_bound": -8.6388,
+        "upper_bound": 14.398,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 7.653034513769162,
+        "median": 0.0
+      },
+      "percent_of_bachelor_degrees_awarded_in_business": {
+        "outlier_count": 821,
+        "outlier_percentage": 3.83,
+        "lower_bound": -22.76265,
+        "upper_bound": 37.93775,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 8.303925637202367,
+        "median": 0.0
+      },
+      "percent_of_american_indian_or_alaska_native_undergraduates": {
+        "outlier_count": 1278,
+        "outlier_percentage": 5.95,
+        "lower_bound": -1.5,
+        "upper_bound": 2.5,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 1.1281860118354223,
+        "median": 0.0
+      },
+      "percent_of_two_or_more_races_undergraduates": {
+        "outlier_count": 526,
+        "outlier_percentage": 2.45,
+        "lower_bound": -5.0,
+        "upper_bound": 11.0,
+        "min_value": 0.0,
+        "max_value": 62.0,
+        "mean": 3.4942453753319977,
+        "median": 3.0
+      },
+      "percent_of_asian_undergraduates": {
+        "outlier_count": 2426,
+        "outlier_percentage": 11.3,
+        "lower_bound": -3.5,
+        "upper_bound": 8.5,
+        "min_value": 0.0,
+        "max_value": 99.0,
+        "mean": 3.8131494338567635,
+        "median": 2.0
+      },
+      "percent_of_black_or_african_american_undergraduates": {
+        "outlier_count": 1896,
+        "outlier_percentage": 8.83,
+        "lower_bound": -22.5,
+        "upper_bound": 45.5,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 15.762592609850426,
+        "median": 8.0
+      },
+      "percent_of_latino_undergraduates": {
+        "outlier_count": 1689,
+        "outlier_percentage": 7.87,
+        "lower_bound": -26.0,
+        "upper_bound": 54.0,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 18.359349517729836,
+        "median": 10.0
+      },
+      "percent_of_native_hawaiian_or_other_pacific_islander_undergraduates": {
+        "outlier_count": 3192,
+        "outlier_percentage": 14.87,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 0.35562182563720235,
+        "median": 0.0
+      },
+      "percent_of_women_undergraduates": {
+        "outlier_count": 1874,
+        "outlier_percentage": 8.73,
+        "lower_bound": 16.0,
+        "upper_bound": 112.0,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 60.600205023065094,
+        "median": 61.0
+      },
+      "percent_of_men_undergraduates": {
+        "outlier_count": 829,
+        "outlier_percentage": 3.86,
+        "lower_bound": -26.5,
+        "upper_bound": 89.5,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 35.560272121522765,
+        "median": 38.0
+      },
+      "percent_of_nonresident_undergraduates": {
+        "outlier_count": 3937,
+        "outlier_percentage": 18.34,
+        "lower_bound": -1.5,
+        "upper_bound": 2.5,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 2.919109081589861,
+        "median": 0.0
+      },
+      "percent_of_undergraduates_race_ethnicity_unknown": {
+        "outlier_count": 2480,
+        "outlier_percentage": 11.56,
+        "lower_bound": -3.0,
+        "upper_bound": 5.0,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 2.3015236941428636,
+        "median": 0.0
+      },
+      "percent_of_undergraduates_age_25_to_64": {
+        "outlier_count": 42,
+        "outlier_percentage": 0.2,
+        "lower_bound": -42.5,
+        "upper_bound": 97.5,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 30.272214715064536,
+        "median": 27.0
+      },
+      "percent_of_full_time,_first_time_degree_seeking_undergraduates": {
+        "outlier_count": 1234,
+        "outlier_percentage": 5.75,
+        "lower_bound": -15.0,
+        "upper_bound": 49.0,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 19.89856017892922,
+        "median": 17.0
+      },
+      "percent_of_undergraduates_enrolled_exclusively_in_distance_education_courses": {
+        "outlier_count": 1405,
+        "outlier_percentage": 6.55,
+        "lower_bound": -34.5,
+        "upper_bound": 57.5,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 14.791715204324122,
+        "median": 2.0
+      },
+      "percent_of_first_time,_full_time_international_undergraduates": {
+        "outlier_count": 4774,
+        "outlier_percentage": 22.25,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 84.0,
+        "mean": 0.9898420390475746,
+        "median": 0.0
+      },
+      "total_enrollment": {
+        "outlier_count": 2431,
+        "outlier_percentage": 11.33,
+        "lower_bound": -5568.5,
+        "upper_bound": 9931.5,
+        "min_value": 1.0,
+        "max_value": 150116.0,
+        "mean": 4238.68934346023,
+        "median": 1320.0
+      },
+      "number_of_first_time,_full_time_degree_certificate_seeking_students_submitting_act_scores": {
+        "outlier_count": 5057,
+        "outlier_percentage": 23.56,
+        "lower_bound": 111.0,
+        "upper_bound": 111.0,
+        "min_value": 0.0,
+        "max_value": 5370.0,
+        "mean": 168.02688597921812,
+        "median": 111.0
+      },
+      "percentage_of_first_time,_full_time_degree_certificate_seeking_students_submitting_act_scores": {
+        "outlier_count": 4855,
+        "outlier_percentage": 22.62,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 7.326219654256558,
+        "median": 0.0
+      },
+      "act_english___25th_percentile_score": {
+        "outlier_count": 4524,
+        "outlier_percentage": 21.08,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 35.0,
+        "mean": 4.256884581333582,
+        "median": 0.0
+      },
+      "act_english___75th_percentile_score": {
+        "outlier_count": 4524,
+        "outlier_percentage": 21.08,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 36.0,
+        "mean": 5.754904244909371,
+        "median": 0.0
+      },
+      "act_math___25th_percentile_score": {
+        "outlier_count": 4521,
+        "outlier_percentage": 21.07,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 34.0,
+        "mean": 4.167186990354597,
+        "median": 0.0
+      },
+      "act_math___75th_percentile_score": {
+        "outlier_count": 4521,
+        "outlier_percentage": 21.07,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 36.0,
+        "mean": 5.501887144121896,
+        "median": 0.0
+      },
+      "number_of_first_time_degree_certificate_seeking_students_submitting_sat_scores": {
+        "outlier_count": 4977,
+        "outlier_percentage": 23.19,
+        "lower_bound": 100.0,
+        "upper_bound": 100.0,
+        "min_value": 0.0,
+        "max_value": 8881.0,
+        "mean": 154.11686314710406,
+        "median": 100.0
+      },
+      "percent_of_first_time_degree_certificate_seeking_students_submitting_sat_scores": {
+        "outlier_count": 4795,
+        "outlier_percentage": 22.34,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 5.708308093751456,
+        "median": 0.0
+      },
+      "sat_evidence_based_reading_and_writing___25th_percentile_score": {
+        "outlier_count": 4732,
+        "outlier_percentage": 22.05,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 740.0,
+        "mean": 117.06924188062067,
+        "median": 0.0
+      },
+      "sat_evidence_based_reading_and_writing___75th_percentile_score": {
+        "outlier_count": 4732,
+        "outlier_percentage": 22.05,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 790.0,
+        "mean": 139.25124644704348,
+        "median": 0.0
+      },
+      "sat_math___25th_percentile_score": {
+        "outlier_count": 4735,
+        "outlier_percentage": 22.06,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 770.0,
+        "mean": 115.44928008946461,
+        "median": 0.0
+      },
+      "sat_math___75th_percentile_score": {
+        "outlier_count": 4735,
+        "outlier_percentage": 22.06,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 800.0,
+        "mean": 138.26410698476306,
+        "median": 0.0
+      },
+      "bachelor's_degrees_awarded": {
+        "outlier_count": 10417,
+        "outlier_percentage": 48.54,
+        "lower_bound": 322.0,
+        "upper_bound": 322.0,
+        "min_value": 0.0,
+        "max_value": 26612.0,
+        "mean": 631.8283863752854,
+        "median": 322.0
+      },
+      "number_of_students_receiving_a_bachelor's_degree": {
+        "outlier_count": 10409,
+        "outlier_percentage": 48.5,
+        "lower_bound": 322.0,
+        "upper_bound": 322.0,
+        "min_value": 0.0,
+        "max_value": 26612.0,
+        "mean": 625.5862261777178,
+        "median": 322.0
+      },
+      "endowment_assets_gasb_per_student": {
+        "outlier_count": 6064,
+        "outlier_percentage": 28.26,
+        "lower_bound": 4526.0,
+        "upper_bound": 4526.0,
+        "min_value": 0.0,
+        "max_value": 1120273.0,
+        "mean": 6723.358091421648,
+        "median": 4526.0
+      },
+      "instructional_expenses_gasb_per_student": {
+        "outlier_count": 7988,
+        "outlier_percentage": 37.22,
+        "lower_bound": 7445.0,
+        "upper_bound": 7445.0,
+        "min_value": 0.0,
+        "max_value": 598759.0,
+        "mean": 7924.73882857276,
+        "median": 7445.0
+      },
+      "endowment_assets_fasb_per_student": {
+        "outlier_count": 5354,
+        "outlier_percentage": 24.95,
+        "lower_bound": 32806.0,
+        "upper_bound": 32806.0,
+        "min_value": 0.0,
+        "max_value": 11724587.0,
+        "mean": 55473.70555892083,
+        "median": 32806.0
+      },
+      "instructional_expenses_fasb_per_fte": {
+        "outlier_count": 6312,
+        "outlier_percentage": 29.41,
+        "lower_bound": 9420.0,
+        "upper_bound": 9420.0,
+        "min_value": 0.0,
+        "max_value": 250147.0,
+        "mean": 10197.198313219327,
+        "median": 9420.0
+      },
+      "instructional_expenses_per_fte": {
+        "outlier_count": 3183,
+        "outlier_percentage": 14.83,
+        "lower_bound": 3465.5,
+        "upper_bound": 12965.5,
+        "min_value": 0.0,
+        "max_value": 598759.0,
+        "mean": 9527.38954382368,
+        "median": 8179.0
+      },
+      "bachelor's_degree_graduation_rate_within_4_years___total": {
+        "outlier_count": 360,
+        "outlier_percentage": 1.68,
+        "lower_bound": -49.5,
+        "upper_bound": 82.5,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 16.734448534551046,
+        "median": 0.0
+      },
+      "bachelor's_degree_graduation_rate_within_6_years___american_indian_or_alaska_native": {
+        "outlier_count": 4066,
+        "outlier_percentage": 18.95,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 11.98504263547831,
+        "median": 0.0
+      },
+      "bachelor's_degree_graduation_rate_within_6_years___black,_non_latino": {
+        "outlier_count": 683,
+        "outlier_percentage": 3.18,
+        "lower_bound": -48.0,
+        "upper_bound": 80.0,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 16.314477424164764,
+        "median": 0.0
+      },
+      "bachelor's_degree_graduation_rate_within_6_years___native_hawaiian_or_other_pacific_islander": {
+        "outlier_count": 2455,
+        "outlier_percentage": 11.44,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 8.580494851125296,
+        "median": 0.0
+      },
+      "transfer_out_rate": {
+        "outlier_count": 507,
+        "outlier_percentage": 2.36,
+        "lower_bound": -25.5,
+        "upper_bound": 42.5,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 9.657331904384698,
+        "median": 0.0
+      },
+      "cost_of_attendance_for_in_state_students_living_on_campus": {
+        "outlier_count": 9043,
+        "outlier_percentage": 42.14,
+        "lower_bound": 32250.0,
+        "upper_bound": 32250.0,
+        "min_value": 4780.0,
+        "max_value": 86984.0,
+        "mean": 34854.30091794418,
+        "median": 32250.0
+      },
+      "average_cost_of_attendance_out_of_state": {
+        "outlier_count": 2291,
+        "outlier_percentage": 10.68,
+        "lower_bound": 8540.5,
+        "upper_bound": 49856.5,
+        "min_value": 2600.5,
+        "max_value": 84126.0,
+        "mean": 31467.445855263177,
+        "median": 28510.0
+      },
+      "average_cost_of_attendance_in_district": {
+        "outlier_count": 3267,
+        "outlier_percentage": 15.22,
+        "lower_bound": 5247.249995000002,
+        "upper_bound": 42135.916675,
+        "min_value": 2600.5,
+        "max_value": 84126.0,
+        "mean": 27026.453077667302,
+        "median": 22766.0
+      },
+      "average_cost_of_attendance_in_state": {
+        "outlier_count": 3349,
+        "outlier_percentage": 15.61,
+        "lower_bound": 6218.499995000002,
+        "upper_bound": 41553.166675,
+        "min_value": 2600.5,
+        "max_value": 84126.0,
+        "mean": 27184.75860862975,
+        "median": 22824.0
+      },
+      "percent_full_time,_first_time,_pell_grant_recipients_still_enrolled_at_same_institution___8_years": {
+        "outlier_count": 933,
+        "outlier_percentage": 4.35,
+        "lower_bound": -1.5,
+        "upper_bound": 2.5,
+        "min_value": 0.0,
+        "max_value": 82.0,
+        "mean": 0.5877172545547737,
+        "median": 0.0
+      },
+      "number_of_american_indian_or_alaska_native_men": {
+        "outlier_count": 2813,
+        "outlier_percentage": 13.11,
+        "lower_bound": -4.5,
+        "upper_bound": 7.5,
+        "min_value": 0.0,
+        "max_value": 550.0,
+        "mean": 4.70844788220493,
+        "median": 1.0
+      },
+      "number_of_american_indian_or_alaska_native_total": {
+        "outlier_count": 2392,
+        "outlier_percentage": 11.15,
+        "lower_bound": -12.0,
+        "upper_bound": 20.0,
+        "min_value": 0.0,
+        "max_value": 1473.0,
+        "mean": 12.255952658310424,
+        "median": 3.0
+      },
+      "number_of_american_indian_or_alaska_native_women": {
+        "outlier_count": 2402,
+        "outlier_percentage": 11.19,
+        "lower_bound": -7.5,
+        "upper_bound": 12.5,
+        "min_value": 0.0,
+        "max_value": 923.0,
+        "mean": 7.547504776105494,
+        "median": 2.0
+      },
+      "number_of_asian_men": {
+        "outlier_count": 3183,
+        "outlier_percentage": 14.83,
+        "lower_bound": -37.5,
+        "upper_bound": 62.5,
+        "min_value": 0.0,
+        "max_value": 5616.0,
+        "mean": 77.9040119286147,
+        "median": 4.0
+      },
+      "number_of_asian_total": {
+        "outlier_count": 3149,
+        "outlier_percentage": 14.67,
+        "lower_bound": -85.0,
+        "upper_bound": 147.0,
+        "min_value": 0.0,
+        "max_value": 11018.0,
+        "mean": 165.9634686174922,
+        "median": 11.0
+      },
+      "number_of_asian_women": {
+        "outlier_count": 3098,
+        "outlier_percentage": 14.44,
+        "lower_bound": -50.0,
+        "upper_bound": 86.0,
+        "min_value": 0.0,
+        "max_value": 5647.0,
+        "mean": 88.01803271049812,
+        "median": 6.0
+      },
+      "number_of_black_or_african_american_men": {
+        "outlier_count": 2391,
+        "outlier_percentage": 11.14,
+        "lower_bound": -123.0,
+        "upper_bound": 213.0,
+        "min_value": 0.0,
+        "max_value": 4389.0,
+        "mean": 97.55263035273286,
+        "median": 26.0
+      },
+      "number_of_black_or_african_american_total": {
+        "outlier_count": 2688,
+        "outlier_percentage": 12.53,
+        "lower_bound": -250.5,
+        "upper_bound": 465.5,
+        "min_value": 0.0,
+        "max_value": 10925.0,
+        "mean": 251.0365313825078,
+        "median": 69.0
+      },
+      "number_of_black_or_african_american_women": {
+        "outlier_count": 2842,
+        "outlier_percentage": 13.24,
+        "lower_bound": -149.5,
+        "upper_bound": 270.5,
+        "min_value": 0.0,
+        "max_value": 8165.0,
+        "mean": 153.15250920273985,
+        "median": 35.0
+      },
+      "number_of_latino_men": {
+        "outlier_count": 2800,
+        "outlier_percentage": 13.05,
+        "lower_bound": -164.0,
+        "upper_bound": 284.0,
+        "min_value": 0.0,
+        "max_value": 7205.0,
+        "mean": 172.81459391454266,
+        "median": 30.0
+      },
+      "number_of_latino_total": {
+        "outlier_count": 2694,
+        "outlier_percentage": 12.55,
+        "lower_bound": -392.0,
+        "upper_bound": 704.0,
+        "min_value": 0.0,
+        "max_value": 18328.0,
+        "mean": 426.52872652718884,
+        "median": 84.0
+      },
+      "number_of_latina_women": {
+        "outlier_count": 2796,
+        "outlier_percentage": 13.03,
+        "lower_bound": -231.5,
+        "upper_bound": 412.5,
+        "min_value": 0.0,
+        "max_value": 11243.0,
+        "mean": 253.46558874236987,
+        "median": 48.0
+      },
+      "number_of_native_hawaiian_or_other_pacific_islander_men": {
+        "outlier_count": 1963,
+        "outlier_percentage": 9.15,
+        "lower_bound": -3.0,
+        "upper_bound": 5.0,
+        "min_value": 0.0,
+        "max_value": 548.0,
+        "mean": 2.4236988024789152,
+        "median": 0.0
+      },
+      "number_of_native_hawaiian_or_other_pacific_islander_total": {
+        "outlier_count": 2112,
+        "outlier_percentage": 9.84,
+        "lower_bound": -6.0,
+        "upper_bound": 10.0,
+        "min_value": 0.0,
+        "max_value": 1352.0,
+        "mean": 5.689856017892922,
+        "median": 1.0
+      },
+      "number_of_native_hawaiian_or_other_pacific_islander_women": {
+        "outlier_count": 2263,
+        "outlier_percentage": 10.54,
+        "lower_bound": -3.0,
+        "upper_bound": 5.0,
+        "min_value": 0.0,
+        "max_value": 804.0,
+        "mean": 3.224733237034621,
+        "median": 0.0
+      },
+      "number_of_men_enrolled": {
+        "outlier_count": 2323,
+        "outlier_percentage": 10.82,
+        "lower_bound": -1188.0,
+        "upper_bound": 2100.0,
+        "min_value": 0.0,
+        "max_value": 41445.0,
+        "mean": 973.5315222962583,
+        "median": 317.0
+      },
+      "number_of_undergraduates_enrolled": {
+        "outlier_count": 2384,
+        "outlier_percentage": 11.11,
+        "lower_bound": -2538.0,
+        "upper_bound": 4750.0,
+        "min_value": 1.0,
+        "max_value": 107952.0,
+        "mean": 2236.8124970877407,
+        "median": 760.0
+      },
+      "grand_total_of_women_undergraduates_enrolled": {
+        "outlier_count": 2378,
+        "outlier_percentage": 11.08,
+        "lower_bound": -1449.0,
+        "upper_bound": 2719.0,
+        "min_value": 0.0,
+        "max_value": 66507.0,
+        "mean": 1262.7424630725502,
+        "median": 430.0
+      },
+      "number_of_white_men_undergraduates_enrolled": {
+        "outlier_count": 2205,
+        "outlier_percentage": 10.27,
+        "lower_bound": -649.0,
+        "upper_bound": 1103.0,
+        "min_value": 0.0,
+        "max_value": 24340.0,
+        "mean": 491.9007734961092,
+        "median": 128.5
+      },
+      "total_number_of_white_undergraduates_enrolled": {
+        "outlier_count": 2098,
+        "outlier_percentage": 9.78,
+        "lower_bound": -1418.5,
+        "upper_bound": 2505.5,
+        "min_value": 0.0,
+        "max_value": 64225.0,
+        "mean": 1103.1760402590746,
+        "median": 309.0
+      },
+      "number_of_white_women_undergraduates_enrolled": {
+        "outlier_count": 2122,
+        "outlier_percentage": 9.89,
+        "lower_bound": -792.5,
+        "upper_bound": 1403.5,
+        "min_value": 0.0,
+        "max_value": 39885.0,
+        "mean": 610.7160430548437,
+        "median": 167.0
+      },
+      "first_time,_full_time_retention_rate": {
+        "outlier_count": 2624,
+        "outlier_percentage": 12.23,
+        "lower_bound": 17.5,
+        "upper_bound": 117.5,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 61.80848981874097,
+        "median": 68.0
+      },
+      "student_to_faculty_ratio": {
+        "outlier_count": 639,
+        "outlier_percentage": 2.98,
+        "lower_bound": 1.5,
+        "upper_bound": 29.5,
+        "min_value": 1.0,
+        "max_value": 112.0,
+        "mean": 15.54135408415265,
+        "median": 15.0
+      },
+      "reported_first_time,_full_time_undergraduate_enrollment": {
+        "outlier_count": 2391,
+        "outlier_percentage": 11.14,
+        "lower_bound": -3765.5,
+        "upper_bound": 6974.5,
+        "min_value": 1.0,
+        "max_value": 94518.0,
+        "mean": 3027.5003028749825,
+        "median": 1077.0
+      },
+      "institutional_category": {
+        "outlier_count": 170,
+        "outlier_percentage": 0.79,
+        "lower_bound": -1.0,
+        "upper_bound": 7.0,
+        "min_value": -2.0,
+        "max_value": 6.0,
+        "mean": 3.523554354410326,
+        "median": 3.0
+      },
+      "institution_size_category_results": {
+        "outlier_count": 2595,
+        "outlier_percentage": 12.09,
+        "lower_bound": -0.5,
+        "upper_bound": 3.5,
+        "min_value": -2.0,
+        "max_value": 5.0,
+        "mean": 1.9000046596151159,
+        "median": 2.0
+      },
+      "degree_of_urbanization": {
+        "outlier_count": 1907,
+        "outlier_percentage": 8.89,
+        "lower_bound": -4.5,
+        "upper_bound": 39.5,
+        "min_value": -3.0,
+        "max_value": 43.0,
+        "mean": 20.40934718792228,
+        "median": 21.0
+      },
+      "sector_of_institution": {
+        "outlier_count": 16,
+        "outlier_percentage": 0.07,
+        "lower_bound": -4.0,
+        "upper_bound": 12.0,
+        "min_value": 0.0,
+        "max_value": 99.0,
+        "mean": 4.1529751642514325,
+        "median": 4.0
+      },
+      "open_admissions_policy": {
+        "outlier_count": 487,
+        "outlier_percentage": 2.27,
+        "lower_bound": -0.5,
+        "upper_bound": 3.5,
+        "min_value": -2.0,
+        "max_value": 2.0,
+        "mean": 1.3253343273845581,
+        "median": 1.0
+      },
+      "out_of_state_average_tuition_for_first_time,_full_time_undergraduates": {
+        "outlier_count": 2798,
+        "outlier_percentage": 13.04,
+        "lower_bound": -1514.0,
+        "upper_bound": 33086.0,
+        "min_value": 0.0,
+        "max_value": 77200.0,
+        "mean": 18476.306183309258,
+        "median": 15330.0
+      },
+      "average_in_state_tuition_for_first_time,_full_time_undergraduates": {
+        "outlier_count": 3388,
+        "outlier_percentage": 15.79,
+        "lower_bound": -6216.0,
+        "upper_bound": 27960.0,
+        "min_value": 0.0,
+        "max_value": 77200.0,
+        "mean": 14298.770979917059,
+        "median": 9760.0
+      },
+      "average_amount_of_loans_awarded_to_first_time,_full_time_undergraduates": {
+        "outlier_count": 677,
+        "outlier_percentage": 3.15,
+        "lower_bound": 1834.5,
+        "upper_bound": 11286.5,
+        "min_value": 111.0,
+        "max_value": 51034.0,
+        "mean": 6682.96859419412,
+        "median": 6511.0
+      },
+      "average_amount_of_federal_grant_aid_awarded_to_first_time,_full_time_undergraduates": {
+        "outlier_count": 737,
+        "outlier_percentage": 3.43,
+        "lower_bound": 1956.0,
+        "upper_bound": 7852.0,
+        "min_value": 100.0,
+        "max_value": 15932.0,
+        "mean": 4950.625320348539,
+        "median": 4978.0
+      },
+      "average_amount_of_institutional_grant_aid_awarded_to_first_time,_full_time_undergraduates": {
+        "outlier_count": 3643,
+        "outlier_percentage": 16.97,
+        "lower_bound": -5066.5,
+        "upper_bound": 13593.5,
+        "min_value": 45.0,
+        "max_value": 57022.0,
+        "mean": 6996.171007874749,
+        "median": 3362.0
+      },
+      "average_amount_of_federal,_state,_local,_or_institutional_grant_aid_awarded": {
+        "outlier_count": 3312,
+        "outlier_percentage": 15.43,
+        "lower_bound": -3490.5,
+        "upper_bound": 19161.5,
+        "min_value": 100.0,
+        "max_value": 59840.0,
+        "mean": 10263.507199105354,
+        "median": 6320.0
+      },
+      "number_of_first_time,_full_time_undergraduates_awarded_federal,_state,_local_or_institutional_grant_aid": {
+        "outlier_count": 2031,
+        "outlier_percentage": 9.46,
+        "lower_bound": -576.0,
+        "upper_bound": 1112.0,
+        "min_value": 0.0,
+        "max_value": 11009.0,
+        "mean": 445.65859000046595,
+        "median": 208.0
+      },
+      "percent_of_first_time,_full_time_undergraduates_awarded_federal,_state,_local_or_institutional_grant_aid": {
+        "outlier_count": 1322,
+        "outlier_percentage": 6.16,
+        "lower_bound": 22.0,
+        "upper_bound": 142.0,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 76.84026839383067,
+        "median": 85.0
+      },
+      "total_amount_of_federal,_state,_local_or_institutional_grant_aid_awarded_to_first_time,_full_time_undergraduates": {
+        "outlier_count": 2589,
+        "outlier_percentage": 12.06,
+        "lower_bound": -7085667.5,
+        "upper_bound": 12679192.5,
+        "min_value": 0.0,
+        "max_value": 134318870.0,
+        "mean": 5355425.984483481,
+        "median": 1528887.0
+      },
+      "number_of_first_time,_full_time_undergraduates_awarded_pell_grants": {
+        "outlier_count": 2203,
+        "outlier_percentage": 10.27,
+        "lower_bound": -261.0,
+        "upper_bound": 547.0,
+        "min_value": 0.0,
+        "max_value": 8457.0,
+        "mean": 223.74013326499232,
+        "median": 108.0
+      },
+      "average_net_price_after_grants,_2018_19": {
+        "outlier_count": 397,
+        "outlier_percentage": 1.85,
+        "lower_bound": -7232.0,
+        "upper_bound": 38008.0,
+        "min_value": -2802.0,
+        "max_value": 110429.0,
+        "mean": 16145.824658683192,
+        "median": 15184.0
+      },
+      "average_net_price_after_grants,_2019_20": {
+        "outlier_count": 407,
+        "outlier_percentage": 1.9,
+        "lower_bound": -7324.0,
+        "upper_bound": 38708.0,
+        "min_value": -2010.0,
+        "max_value": 111426.0,
+        "mean": 16568.743627976328,
+        "median": 15620.0
+      },
+      "average_net_price_after_grants,_2020_21": {
+        "outlier_count": 334,
+        "outlier_percentage": 1.56,
+        "lower_bound": -7202.0,
+        "upper_bound": 39190.0,
+        "min_value": -1104.0,
+        "max_value": 115511.0,
+        "mean": 16758.60929127254,
+        "median": 15851.0
+      },
+      "average_net_price_for_low_income_students,_2018_19": {
+        "outlier_count": 323,
+        "outlier_percentage": 1.51,
+        "lower_bound": -7011.0,
+        "upper_bound": 33397.0,
+        "min_value": -7808.0,
+        "max_value": 108219.0,
+        "mean": 13783.777526676296,
+        "median": 13100.5
+      },
+      "average_net_price_for_low_income_students,_2019_20": {
+        "outlier_count": 313,
+        "outlier_percentage": 1.46,
+        "lower_bound": -7354.5,
+        "upper_bound": 34345.5,
+        "min_value": -1696.0,
+        "max_value": 111962.0,
+        "mean": 14133.13685289595,
+        "median": 13443.0
+      },
+      "average_net_price_for_low_income_students,_2020_21": {
+        "outlier_count": 316,
+        "outlier_percentage": 1.47,
+        "lower_bound": -7970.0,
+        "upper_bound": 35046.0,
+        "min_value": -6711.0,
+        "max_value": 69257.0,
+        "mean": 14171.664973673174,
+        "median": 13470.0
+      },
+      "average_net_price_after_grants__students_awarded_a_grant_or_scholarship,_2020_21": {
+        "outlier_count": 6191,
+        "outlier_percentage": 28.85,
+        "lower_bound": 15456.0,
+        "upper_bound": 25352.0,
+        "min_value": -1104.0,
+        "max_value": 115511.0,
+        "mean": 20813.58832300452,
+        "median": 20489.0
+      },
+      "number_awarded_a_grant_or_scholarship___low_income_students_in_state,_2020_21": {
+        "outlier_count": 7905,
+        "outlier_percentage": 36.83,
+        "lower_bound": 110.0,
+        "upper_bound": 110.0,
+        "min_value": 0.0,
+        "max_value": 2685.0,
+        "mean": 141.99981361539537,
+        "median": 110.0
+      },
+      "number_awarded_a_grant_or_scholarship___low_income_students,_2020_21": {
+        "outlier_count": 5782,
+        "outlier_percentage": 26.94,
+        "lower_bound": 10.0,
+        "upper_bound": 58.0,
+        "min_value": 0.0,
+        "max_value": 2349.0,
+        "mean": 49.94506313778482,
+        "median": 33.0
+      },
+      "average_net_price_after_grants___low_income_students_awarded_financial_aid,_2020_21": {
+        "outlier_count": 316,
+        "outlier_percentage": 1.47,
+        "lower_bound": -7970.0,
+        "upper_bound": 35046.0,
+        "min_value": -6711.0,
+        "max_value": 69257.0,
+        "mean": 14171.664973673174,
+        "median": 13470.0
+      },
+      "asian_american_or_native_american_pacific_islander_serving_institution_(aanapisi)": {
+        "outlier_count": 883,
+        "outlier_percentage": 4.11,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 1.0,
+        "mean": 0.04114440147243838,
+        "median": 0.0
+      },
+      "alaska_native,_native_hawaiian_serving_institution_(annhsi)": {
+        "outlier_count": 72,
+        "outlier_percentage": 0.34,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 1.0,
+        "mean": 0.0033549228833698336,
+        "median": 0.0
+      },
+      "cohort_default_rate": {
+        "outlier_count": 266,
+        "outlier_percentage": 1.24,
+        "lower_bound": -9.95,
+        "upper_bound": 24.05,
+        "min_value": 0.0,
+        "max_value": 57.099999999999994,
+        "mean": 7.492451423512418,
+        "median": 6.6000000000000005
+      },
+      "median_debt_for_dependent_students": {
+        "outlier_count": 202,
+        "outlier_percentage": 0.94,
+        "lower_bound": -5600.0,
+        "upper_bound": 24000.0,
+        "min_value": 1750.0,
+        "max_value": 29328.0,
+        "mean": 10021.72191416989,
+        "median": 8716.0
+      },
+      "median_debt_of_completers": {
+        "outlier_count": 40,
+        "outlier_percentage": 0.19,
+        "lower_bound": -6729.0,
+        "upper_bound": 39215.0,
+        "min_value": 2013.0,
+        "max_value": 48148.0,
+        "mean": 16102.34206234565,
+        "median": 14859.0
+      },
+      "historically_black_college_or_university_(hbcu)": {
+        "outlier_count": 452,
+        "outlier_percentage": 2.11,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 1.0,
+        "mean": 0.021061460323377287,
+        "median": 0.0
+      },
+      "median_debt_for_independent_students": {
+        "outlier_count": 357,
+        "outlier_percentage": 1.66,
+        "lower_bound": 141.5,
+        "upper_bound": 25097.5,
+        "min_value": 2013.0,
+        "max_value": 42393.0,
+        "mean": 12607.346721960766,
+        "median": 11162.0
+      },
+      "instructional_expenditures_per_student": {
+        "outlier_count": 1376,
+        "outlier_percentage": 6.41,
+        "lower_bound": -3262.5,
+        "upper_bound": 17333.5,
+        "min_value": 0.0,
+        "max_value": 586058.0,
+        "mean": 8377.4949443176,
+        "median": 6630.0
+      },
+      "median_earnings_of_dependent_students_working_and_not_enrolled_10_years_after_entry": {
+        "outlier_count": 1565,
+        "outlier_percentage": 7.29,
+        "lower_bound": 18826.5,
+        "upper_bound": 61638.5,
+        "min_value": 9843.0,
+        "max_value": 131792.0,
+        "mean": 41340.724383765904,
+        "median": 39741.0
+      },
+      "median_earnings_of_independent_students_working_and_not_enrolled_10_years_after_entry": {
+        "outlier_count": 1365,
+        "outlier_percentage": 6.36,
+        "lower_bound": 16062.5,
+        "upper_bound": 59738.5,
+        "min_value": 11114.0,
+        "max_value": 125815.0,
+        "mean": 38888.99384930805,
+        "median": 37007.0
+      },
+      "native_american_non_tribal_institution_(nanti)": {
+        "outlier_count": 149,
+        "outlier_percentage": 0.69,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 1.0,
+        "mean": 0.006942826522529239,
+        "median": 0.0
+      },
+      "predominantly_black_institution_(pbi)": {
+        "outlier_count": 306,
+        "outlier_percentage": 1.43,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 1.0,
+        "mean": 0.014258422254321793,
+        "median": 0.0
+      },
+      "percent_of_part_time_undergraduates": {
+        "outlier_count": 70,
+        "outlier_percentage": 0.33,
+        "lower_bound": -57.72,
+        "upper_bound": 96.19999999999999,
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "mean": 21.894722519919856,
+        "median": 11.98
+      },
+      "tribal_college_or_university_(tcu)": {
+        "outlier_count": 107,
+        "outlier_percentage": 0.5,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "min_value": 0.0,
+        "max_value": 1.0,
+        "mean": 0.004985788173896836,
+        "median": 0.0
+      },
+      "public_institution_gasb_endowment_assets": {
+        "outlier_count": 6039,
+        "outlier_percentage": 28.14,
+        "lower_bound": 11275985.0,
+        "upper_bound": 11275985.0,
+        "min_value": 0.0,
+        "max_value": 30522119569.0,
+        "mean": 48066249.5593868,
+        "median": 11275985.0
+      },
+      "private_not_for_profit_or_public_institution_fasb_endowment_assets": {
+        "outlier_count": 5281,
+        "outlier_percentage": 24.61,
+        "lower_bound": 47589491.0,
+        "upper_bound": 47589491.0,
+        "min_value": 0.0,
+        "max_value": 41894380000.0,
+        "mean": 142951349.21653232,
+        "median": 47589491.0
+      },
+      "number_of_undergraduates_age_25_and_older": {
+        "outlier_count": 2705,
+        "outlier_percentage": 12.6,
+        "lower_bound": -944.0,
+        "upper_bound": 1728.0,
+        "min_value": 0.0,
+        "max_value": 95133.0,
+        "mean": 863.3497973067425,
+        "median": 206.0
+      },
+      "percent_of_undergraduates_age_25_and_older": {
+        "outlier_count": 50,
+        "outlier_percentage": 0.23,
+        "lower_bound": -13.833300000000001,
+        "upper_bound": 32.465900000000005,
+        "min_value": 0.0,
+        "max_value": 33.3333,
+        "mean": 10.127010507432088,
+        "median": 9.0588
+      }
+    }
+  },
+  "duplicates": {
+    "duplicate_rows": 0,
+    "duplicate_percentage": 0.0,
+    "key_column_duplicates": {
+      "institution_id": {
+        "duplicate_count": 15043,
+        "duplicate_percentage": 70.09,
+        "unique_count": 6418
+      }
+    }
+  },
+  "data_types": {
+    "columns_validated": 244,
+    "columns_with_issues": 14,
+    "validation_results": {
+      "institution_id": {
+        "status": "valid"
+      },
+      "sector": {
+        "status": "valid"
+      },
+      "msi_status": {
+        "status": "valid"
+      },
+      "hbcu": {
+        "status": "valid"
+      },
+      "pbi": {
+        "status": "valid"
+      },
+      "annhi": {
+        "status": "valid"
+      },
+      "tribal": {
+        "status": "valid"
+      },
+      "aanapii": {
+        "status": "valid"
+      },
+      "hsi": {
+        "status": "valid"
+      },
+      "nanti": {
+        "status": "valid"
+      },
+      "average_work_study_award": {
+        "status": "valid"
+      },
+      "cost_of_attendance:_in_state,_on_campus": {
+        "status": "valid"
+      },
+      "cost_of_attendance:_out_of_state": {
+        "status": "valid"
+      },
+      "cost_of_attendance:_in_district": {
+        "status": "valid"
+      },
+      "cost_of_attendance:_in_state": {
+        "status": "valid"
+      },
+      "annual_income_estimate": {
+        "status": "valid"
+      },
+      "student_family_earnings_ceiling": {
+        "status": "valid"
+      },
+      "state_minimum_wage": {
+        "status": "valid"
+      },
+      "income_earned_from_working_10_hours_a_week_at_state's_minimum_wage": {
+        "status": "valid"
+      },
+      "net_price": {
+        "status": "issues_found",
+        "issues": [
+          "Negative values found: 53 rows"
+        ]
+      },
+      "affordability_gap_(net_price_minus_income_earned_working_10_hrs_at_min_wage)": {
+        "status": "issues_found",
+        "issues": [
+          "Negative values found: 1157 rows"
+        ]
+      },
+      "weekly_hours_to_close_gap": {
+        "status": "valid"
+      },
+      "100%_ttd_affordability_gap": {
+        "status": "valid"
+      },
+      "150%_ttd_affordability_gap": {
+        "status": "valid"
+      },
+      "cpi_index": {
+        "status": "valid"
+      },
+      "monthly_center_based_child_care_cost": {
+        "status": "valid"
+      },
+      "annual_center_based_child_care_cost": {
+        "status": "valid"
+      },
+      "adjusted_monthly_center_based_child_care_cost": {
+        "status": "valid"
+      },
+      "monthly_home_based_child_care_cost": {
+        "status": "valid"
+      },
+      "adjusted_monthly_home_based_child_care_cost": {
+        "status": "valid"
+      },
+      "annual_home_based_child_care_cost": {
+        "status": "valid"
+      },
+      "student_parent_affordability_gap:_center_based_care": {
+        "status": "valid"
+      },
+      "student_parent_affordability_gap:_home_based_care": {
+        "status": "valid"
+      },
+      "weekly_hours_to_close_gap:_center_based_care": {
+        "status": "valid"
+      },
+      "weekly_hours_to_close_gap:_home_based_care": {
+        "status": "valid"
+      },
+      "100%_ttd_student_parent_affordability_gap:_center_based_care": {
+        "status": "valid"
+      },
+      "100%_ttd_student_parent_affordability_gap:_home_based_care": {
+        "status": "valid"
+      },
+      "150%_ttd_student_parent_affordability_gap:_center_based_care": {
+        "status": "valid"
+      },
+      "150%_ttd_student_parent_affordability_gap:_home_based_care": {
+        "status": "valid"
+      },
+      "adjusted_annual_home_based_child_care_cost": {
+        "status": "valid"
+      },
+      "adjusted_annual_center_based_child_care_cost": {
+        "status": "valid"
+      },
+      "highest_degree_offered": {
+        "status": "valid"
+      },
+      "highest_level_offered": {
+        "status": "valid"
+      },
+      "combined_statistical_area": {
+        "status": "valid"
+      },
+      "degree_of_localization": {
+        "status": "valid"
+      },
+      "institution_level": {
+        "status": "valid"
+      },
+      "institution_size_category": {
+        "status": "valid"
+      },
+      "state_code_(fips)": {
+        "status": "valid"
+      },
+      "latitude": {
+        "status": "valid"
+      },
+      "longitude": {
+        "status": "valid"
+      },
+      "region_#": {
+        "status": "valid"
+      },
+      "sub_region_#": {
+        "status": "valid"
+      },
+      "2000_carnegie_classification": {
+        "status": "valid"
+      },
+      "2015_carnegie_classification": {
+        "status": "valid"
+      },
+      "2018_carnegie_classification": {
+        "status": "valid"
+      },
+      "2021_carnegie_classification": {
+        "status": "valid"
+      },
+      "county_code": {
+        "status": "valid"
+      },
+      "control_of_institution": {
+        "status": "valid"
+      },
+      "number_of_bachelor_degrees_grand_total": {
+        "status": "valid"
+      },
+      "number_of_bachelor_degrees_total_men": {
+        "status": "valid"
+      },
+      "number_of_bachelor_degrees_total_women": {
+        "status": "valid"
+      },
+      "number_of_bachelor_degrees_white_total": {
+        "status": "valid"
+      },
+      "number_of_bachelor_degrees_white_men": {
+        "status": "valid"
+      },
+      "number_of_bachelor_degrees_white_women": {
+        "status": "valid"
+      },
+      "number_of_bachelor_degrees_american_indian_or_alaska_native_men": {
+        "status": "valid"
+      },
+      "number_of_bachelor_degrees_american_indian_or_alaska_native_total": {
+        "status": "valid"
+      },
+      "number_of_bachelor_degrees_american_indian_or_alaska_native_women": {
+        "status": "valid"
+      },
+      "number_of_bachelor_degrees_asian_men": {
+        "status": "valid"
+      },
+      "number_of_bachelor_degrees_asian_total": {
+        "status": "valid"
+      },
+      "number_of_bachelor_degrees_asian_women": {
+        "status": "valid"
+      },
+      "number_of_bachelor_degrees_black_or_african_american_men": {
+        "status": "valid"
+      },
+      "number_of_bachelor_degrees_black_or_african_american_total": {
+        "status": "valid"
+      },
+      "number_of_bachelor_degrees_black_or_african_american_women": {
+        "status": "valid"
+      },
+      "number_of_bachelor_degrees_latino_men": {
+        "status": "valid"
+      },
+      "number_of_bachelor_degrees_latino_total": {
+        "status": "valid"
+      },
+      "number_of_bachelor_degrees_latina_women": {
+        "status": "valid"
+      },
+      "number_of_bachelor_degrees_native_hawaiian_or_other_pacific_islander_men": {
+        "status": "valid"
+      },
+      "number_of_bachelor_degrees_native_hawaiian_or_other_pacific_islander_total": {
+        "status": "valid"
+      },
+      "number_of_bachelor_degrees_native_hawaiian_or_other_pacific_islander_women": {
+        "status": "valid"
+      },
+      "number_of_degrees_awarded_in_science,_technology,_engineering,_and_math": {
+        "status": "valid"
+      },
+      "number_of_degrees_awarded_in_arts_and_humanities": {
+        "status": "valid"
+      },
+      "number_of_degrees_awarded_in_education": {
+        "status": "valid"
+      },
+      "number_of_degrees_awarded_in_social_sciences": {
+        "status": "valid"
+      },
+      "number_of_degrees_awarded_in_health_sciences": {
+        "status": "valid"
+      },
+      "number_of_degrees_awarded_in_business": {
+        "status": "valid"
+      },
+      "percent_of_bachelor_degrees_american_indian_or_alaska_native_men": {
+        "status": "valid"
+      },
+      "percent_of_bachelor_degrees_american_indian_or_alaska_native_total": {
+        "status": "valid"
+      },
+      "percent_of_bachelor_degrees_american_indian_or_alaska_native_women": {
+        "status": "valid"
+      },
+      "percent_of_bachelor_degrees_asian_men": {
+        "status": "valid"
+      },
+      "percent_of_bachelor_degrees_asian_total": {
+        "status": "valid"
+      },
+      "percent_of_bachelor_degrees_asian_women": {
+        "status": "valid"
+      },
+      "percent_of_bachelor_degrees_black_or_african_american_men": {
+        "status": "valid"
+      },
+      "percent_of_bachelor_degrees_black_or_african_american_total": {
+        "status": "valid"
+      },
+      "percent_of_bachelor_degrees_black_or_african_american_women": {
+        "status": "valid"
+      },
+      "percent_of_bachelor_degrees_latino_men": {
+        "status": "valid"
+      },
+      "percent_of_bachelor_degrees_latino_total": {
+        "status": "valid"
+      },
+      "percent_of_bachelor_degrees_latina_women": {
+        "status": "valid"
+      },
+      "percent_of_bachelor_degrees_native_hawaiian_or_other_pacific_islander_men": {
+        "status": "valid"
+      },
+      "percent_of_bachelor_degrees_native_hawaiian_or_other_pacific_islander_total": {
+        "status": "valid"
+      },
+      "percent_of_bachelor_degrees_native_hawaiian_or_other_pacific_islander_women": {
+        "status": "valid"
+      },
+      "percent_of_bachelor_degrees_men": {
+        "status": "valid"
+      },
+      "percent_of_bachelor_degrees_women": {
+        "status": "valid"
+      },
+      "percent_of_bachelor_degrees_white_total": {
+        "status": "valid"
+      },
+      "percent_of_bachelor_degrees_white_men": {
+        "status": "valid"
+      },
+      "percent_of_bachelor_degrees_white_women": {
+        "status": "valid"
+      },
+      "percent_of_bachelor_degrees_awarded_in_science,_technology,_engineering,_and_math": {
+        "status": "valid"
+      },
+      "percent_of_bachelor_degrees_awarded_in_arts_and_humanities": {
+        "status": "valid"
+      },
+      "percent_of_bachelor_degrees_awarded_in_education": {
+        "status": "valid"
+      },
+      "percent_of_bachelor_degrees_awarded_in_social_sciences": {
+        "status": "valid"
+      },
+      "percent_of_bachelor_degrees_awarded_in_health_sciences": {
+        "status": "valid"
+      },
+      "percent_of_bachelor_degrees_awarded_in_business": {
+        "status": "valid"
+      },
+      "percent_of_american_indian_or_alaska_native_undergraduates": {
+        "status": "valid"
+      },
+      "percent_of_two_or_more_races_undergraduates": {
+        "status": "valid"
+      },
+      "percent_of_asian_undergraduates": {
+        "status": "valid"
+      },
+      "percent_of_black_or_african_american_undergraduates": {
+        "status": "valid"
+      },
+      "percent_of_latino_undergraduates": {
+        "status": "valid"
+      },
+      "percent_of_native_hawaiian_or_other_pacific_islander_undergraduates": {
+        "status": "valid"
+      },
+      "percent_of_white_undergraduates": {
+        "status": "valid"
+      },
+      "percent_of_women_undergraduates": {
+        "status": "valid"
+      },
+      "percent_of_men_undergraduates": {
+        "status": "valid"
+      },
+      "percent_of_nonresident_undergraduates": {
+        "status": "valid"
+      },
+      "percent_of_undergraduates_race_ethnicity_unknown": {
+        "status": "valid"
+      },
+      "percent_of_undergraduates_age_25_to_64": {
+        "status": "valid"
+      },
+      "percent_of_full_time,_first_time_degree_seeking_undergraduates": {
+        "status": "valid"
+      },
+      "percent_of_undergraduates_enrolled_exclusively_in_distance_education_courses": {
+        "status": "valid"
+      },
+      "percent_of_first_time,_full_time_international_undergraduates": {
+        "status": "valid"
+      },
+      "total_enrollment": {
+        "status": "valid"
+      },
+      "number_of_first_time,_full_time_degree_certificate_seeking_students_submitting_act_scores": {
+        "status": "valid"
+      },
+      "percentage_of_first_time,_full_time_degree_certificate_seeking_students_submitting_act_scores": {
+        "status": "valid"
+      },
+      "act_english___25th_percentile_score": {
+        "status": "valid"
+      },
+      "act_english___75th_percentile_score": {
+        "status": "valid"
+      },
+      "act_math___25th_percentile_score": {
+        "status": "valid"
+      },
+      "act_math___75th_percentile_score": {
+        "status": "valid"
+      },
+      "number_of_first_time_degree_certificate_seeking_students_submitting_sat_scores": {
+        "status": "valid"
+      },
+      "percent_of_first_time_degree_certificate_seeking_students_submitting_sat_scores": {
+        "status": "valid"
+      },
+      "sat_evidence_based_reading_and_writing___25th_percentile_score": {
+        "status": "issues_found",
+        "issues": [
+          "Percentage out of range: min=0.0, max=740.0"
+        ]
+      },
+      "sat_evidence_based_reading_and_writing___75th_percentile_score": {
+        "status": "issues_found",
+        "issues": [
+          "Percentage out of range: min=0.0, max=790.0"
+        ]
+      },
+      "sat_math___25th_percentile_score": {
+        "status": "issues_found",
+        "issues": [
+          "Percentage out of range: min=0.0, max=770.0"
+        ]
+      },
+      "sat_math___75th_percentile_score": {
+        "status": "issues_found",
+        "issues": [
+          "Percentage out of range: min=0.0, max=800.0"
+        ]
+      },
+      "total_percent_of_applicants_admitted": {
+        "status": "valid"
+      },
+      "total_percent_of_men_admitted": {
+        "status": "valid"
+      },
+      "total_percent_of_women_admitted": {
+        "status": "valid"
+      },
+      "bachelor's_degrees_awarded": {
+        "status": "valid"
+      },
+      "number_of_students_receiving_a_bachelor's_degree": {
+        "status": "valid"
+      },
+      "endowment_assets_gasb_per_student": {
+        "status": "valid"
+      },
+      "instructional_expenses_gasb_per_student": {
+        "status": "valid"
+      },
+      "endowment_assets_fasb_per_student": {
+        "status": "valid"
+      },
+      "instructional_expenses_fasb_per_fte": {
+        "status": "valid"
+      },
+      "instructional_expenses_per_fte": {
+        "status": "valid"
+      },
+      "bachelor's_degree_graduation_rate_within_4_years___total": {
+        "status": "valid"
+      },
+      "bachelor's_degree_graduation_rate_within_5_years___total": {
+        "status": "valid"
+      },
+      "bachelor's_degree_graduation_rate_within_6_years___american_indian_or_alaska_native": {
+        "status": "valid"
+      },
+      "bachelor's_degree_graduation_rate_within_6_years___asian,_native_hawaiian,_pacific_islander": {
+        "status": "valid"
+      },
+      "bachelor's_degree_graduation_rate_within_6_years___asian": {
+        "status": "valid"
+      },
+      "bachelor's_degree_graduation_rate_within_6_years___black,_non_latino": {
+        "status": "valid"
+      },
+      "bachelor's_degree_graduation_rate_within_6_years___latino": {
+        "status": "valid"
+      },
+      "bachelor's_degree_graduation_rate_within_6_years___men": {
+        "status": "valid"
+      },
+      "bachelor's_degree_graduation_rate_within_6_years___native_hawaiian_or_other_pacific_islander": {
+        "status": "valid"
+      },
+      "bachelor's_degree_graduation_rate_bachelor_degree_within_6_years___total": {
+        "status": "valid"
+      },
+      "bachelor's_degree_graduation_rate_bachelor_degree_within_6_years___women": {
+        "status": "valid"
+      },
+      "bachelor's_degree_graduation_rate_within_6_years___white_non_latino": {
+        "status": "valid"
+      },
+      "transfer_out_rate": {
+        "status": "valid"
+      },
+      "cost_of_attendance_for_in_state_students_living_on_campus": {
+        "status": "valid"
+      },
+      "average_cost_of_attendance_out_of_state": {
+        "status": "valid"
+      },
+      "average_cost_of_attendance_in_district": {
+        "status": "valid"
+      },
+      "average_cost_of_attendance_in_state": {
+        "status": "valid"
+      },
+      "percent_full_time,_first_time,_pell_grant_recipients_still_enrolled_at_same_institution___8_years": {
+        "status": "valid"
+      },
+      "percent_full_time,_first_time,_pell_grant_recipients_receiving_an_award___6_years": {
+        "status": "valid"
+      },
+      "number_of_american_indian_or_alaska_native_men": {
+        "status": "valid"
+      },
+      "number_of_american_indian_or_alaska_native_total": {
+        "status": "valid"
+      },
+      "number_of_american_indian_or_alaska_native_women": {
+        "status": "valid"
+      },
+      "number_of_asian_men": {
+        "status": "valid"
+      },
+      "number_of_asian_total": {
+        "status": "valid"
+      },
+      "number_of_asian_women": {
+        "status": "valid"
+      },
+      "number_of_black_or_african_american_men": {
+        "status": "valid"
+      },
+      "number_of_black_or_african_american_total": {
+        "status": "valid"
+      },
+      "number_of_black_or_african_american_women": {
+        "status": "valid"
+      },
+      "number_of_latino_men": {
+        "status": "valid"
+      },
+      "number_of_latino_total": {
+        "status": "valid"
+      },
+      "number_of_latina_women": {
+        "status": "valid"
+      },
+      "number_of_native_hawaiian_or_other_pacific_islander_men": {
+        "status": "valid"
+      },
+      "number_of_native_hawaiian_or_other_pacific_islander_total": {
+        "status": "valid"
+      },
+      "number_of_native_hawaiian_or_other_pacific_islander_women": {
+        "status": "valid"
+      },
+      "number_of_men_enrolled": {
+        "status": "valid"
+      },
+      "number_of_undergraduates_enrolled": {
+        "status": "valid"
+      },
+      "grand_total_of_women_undergraduates_enrolled": {
+        "status": "valid"
+      },
+      "number_of_white_men_undergraduates_enrolled": {
+        "status": "valid"
+      },
+      "total_number_of_white_undergraduates_enrolled": {
+        "status": "valid"
+      },
+      "number_of_white_women_undergraduates_enrolled": {
+        "status": "valid"
+      },
+      "degree_level": {
+        "status": "valid"
+      },
+      "student_status": {
+        "status": "valid"
+      },
+      "first_time,_full_time_retention_rate": {
+        "status": "valid"
+      },
+      "student_to_faculty_ratio": {
+        "status": "valid"
+      },
+      "reported_first_time,_full_time_undergraduate_enrollment": {
+        "status": "valid"
+      },
+      "carnegie_classification": {
+        "status": "valid"
+      },
+      "institutional_category": {
+        "status": "valid"
+      },
+      "institution_size_category_results": {
+        "status": "valid"
+      },
+      "degree_of_urbanization": {
+        "status": "valid"
+      },
+      "sector_of_institution": {
+        "status": "valid"
+      },
+      "open_admissions_policy": {
+        "status": "valid"
+      },
+      "out_of_state_average_tuition_for_first_time,_full_time_undergraduates": {
+        "status": "valid"
+      },
+      "average_in_state_tuition_for_first_time,_full_time_undergraduates": {
+        "status": "valid"
+      },
+      "average_amount_of_loans_awarded_to_first_time,_full_time_undergraduates": {
+        "status": "valid"
+      },
+      "average_amount_of_federal_grant_aid_awarded_to_first_time,_full_time_undergraduates": {
+        "status": "valid"
+      },
+      "average_amount_of_institutional_grant_aid_awarded_to_first_time,_full_time_undergraduates": {
+        "status": "valid"
+      },
+      "average_amount_of_federal,_state,_local,_or_institutional_grant_aid_awarded": {
+        "status": "valid"
+      },
+      "number_of_first_time,_full_time_undergraduates_awarded_federal,_state,_local_or_institutional_grant_aid": {
+        "status": "valid"
+      },
+      "percent_of_first_time,_full_time_undergraduates_awarded_federal,_state,_local_or_institutional_grant_aid": {
+        "status": "valid"
+      },
+      "total_amount_of_federal,_state,_local_or_institutional_grant_aid_awarded_to_first_time,_full_time_undergraduates": {
+        "status": "valid"
+      },
+      "number_of_first_time,_full_time_undergraduates_awarded_pell_grants": {
+        "status": "valid"
+      },
+      "percent_of_first_time,_full_time_undergraduates_awarded_pell_grants": {
+        "status": "valid"
+      },
+      "average_net_price_after_grants,_2018_19": {
+        "status": "issues_found",
+        "issues": [
+          "Negative values found: 20 rows"
+        ]
+      },
+      "average_net_price_after_grants,_2019_20": {
+        "status": "issues_found",
+        "issues": [
+          "Negative values found: 32 rows"
+        ]
+      },
+      "average_net_price_after_grants,_2020_21": {
+        "status": "issues_found",
+        "issues": [
+          "Negative values found: 11 rows"
+        ]
+      },
+      "average_net_price_for_low_income_students,_2018_19": {
+        "status": "issues_found",
+        "issues": [
+          "Negative values found: 52 rows"
+        ]
+      },
+      "average_net_price_for_low_income_students,_2019_20": {
+        "status": "issues_found",
+        "issues": [
+          "Negative values found: 54 rows"
+        ]
+      },
+      "average_net_price_for_low_income_students,_2020_21": {
+        "status": "issues_found",
+        "issues": [
+          "Negative values found: 60 rows"
+        ]
+      },
+      "average_net_price_after_grants__students_awarded_a_grant_or_scholarship,_2020_21": {
+        "status": "issues_found",
+        "issues": [
+          "Negative values found: 1 rows"
+        ]
+      },
+      "number_awarded_a_grant_or_scholarship___low_income_students_in_state,_2020_21": {
+        "status": "valid"
+      },
+      "number_awarded_a_grant_or_scholarship___low_income_students,_2020_21": {
+        "status": "valid"
+      },
+      "average_net_price_after_grants___low_income_students_awarded_financial_aid,_2020_21": {
+        "status": "issues_found",
+        "issues": [
+          "Negative values found: 60 rows"
+        ]
+      },
+      "asian_american_or_native_american_pacific_islander_serving_institution_(aanapisi)": {
+        "status": "valid"
+      },
+      "alaska_native,_native_hawaiian_serving_institution_(annhsi)": {
+        "status": "valid"
+      },
+      "cohort_default_rate": {
+        "status": "valid"
+      },
+      "median_debt_for_dependent_students": {
+        "status": "valid"
+      },
+      "median_debt_of_completers": {
+        "status": "valid"
+      },
+      "historically_black_college_or_university_(hbcu)": {
+        "status": "valid"
+      },
+      "hispanic_serving_institution_(hsi)": {
+        "status": "valid"
+      },
+      "median_debt_for_independent_students": {
+        "status": "valid"
+      },
+      "instructional_expenditures_per_student": {
+        "status": "valid"
+      },
+      "median_earnings_of_dependent_students_working_and_not_enrolled_10_years_after_entry": {
+        "status": "valid"
+      },
+      "median_earnings_of_independent_students_working_and_not_enrolled_10_years_after_entry": {
+        "status": "valid"
+      },
+      "median_earnings_of_students_working_and_not_enrolled_10_years_after_entry": {
+        "status": "valid"
+      },
+      "native_american_non_tribal_institution_(nanti)": {
+        "status": "valid"
+      },
+      "predominantly_black_institution_(pbi)": {
+        "status": "valid"
+      },
+      "percent_of_full_time_faculty": {
+        "status": "valid"
+      },
+      "percent_of_part_time_undergraduates": {
+        "status": "valid"
+      },
+      "tribal_college_or_university_(tcu)": {
+        "status": "valid"
+      },
+      "public_institution_gasb_endowment_assets": {
+        "status": "valid"
+      },
+      "private_not_for_profit_or_public_institution_fasb_endowment_assets": {
+        "status": "valid"
+      },
+      "number_of_undergraduates_age_25_and_older": {
+        "status": "valid"
+      },
+      "percent_of_undergraduates_age_25_and_older": {
+        "status": "valid"
+      }
+    }
+  },
+  "consistency": {
+    "consistency_checks_performed": 3,
+    "issues_found": 0,
+    "issues": []
+  },
+  "overall_quality_score": 74
+}

@@ -6,7 +6,6 @@ Purpose: Extract text and structured parameters from bill PDFs
 
 import pdfplumber
 import re
-import spacy
 import os
 import json
 from pathlib import Path
@@ -16,11 +15,13 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Try to load spaCy model
+# Try to load spaCy model (optional - pipeline works without it)
+nlp = None
 try:
+    import spacy
     nlp = spacy.load("en_core_web_sm")
-except OSError:
-    logger.warning("spaCy model 'en_core_web_sm' not found. Install with: python -m spacy download en_core_web_sm")
+except (OSError, ImportError, Exception) as e:
+    logger.warning(f"spaCy not available: {e}. Continuing without spaCy NER (rule-based extraction will still work).")
     nlp = None
 
 

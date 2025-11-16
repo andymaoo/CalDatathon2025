@@ -50,11 +50,29 @@ def read_and_merge_csvs(
                 df = df.rename(columns={merge_key: "institution_id"})
             elif "institution_id" not in df.columns:
                 logger.warning(f"No merge key found in {dataset_name}. Attempting to infer...")
-                # Try common ID column names
-                for col in ["id", "unitid", "opeid", "college_id"]:
-                    if col in df.columns:
-                        df = df.rename(columns={col: "institution_id"})
+                # Try common ID column names (case-insensitive)
+                df_cols_lower = {col.lower(): col for col in df.columns}
+                # First try exact patterns
+                for col_pattern in ["id", "unitid", "unit id", "opeid", "college_id"]:
+                    if col_pattern in df.columns:
+                        df = df.rename(columns={col_pattern: "institution_id"})
+                        logger.info(f"Found merge key: {col_pattern} -> institution_id")
                         break
+                    # Check case-insensitive match
+                    elif col_pattern.lower() in df_cols_lower:
+                        original_col = df_cols_lower[col_pattern.lower()]
+                        df = df.rename(columns={original_col: "institution_id"})
+                        logger.info(f"Found merge key: {original_col} -> institution_id")
+                        break
+                else:
+                    # If no exact match, try partial matches (for long column names)
+                    for col in df.columns:
+                        col_lower = col.lower()
+                        if any(pattern in col_lower for pattern in ["unique", "identification", "unit"]):
+                            if "number" in col_lower or "id" in col_lower:
+                                df = df.rename(columns={col: "institution_id"})
+                                logger.info(f"Found merge key (partial match): {col} -> institution_id")
+                                break
             
             dfs[dataset_name] = df
             logger.info(f"Loaded {dataset_name}: {len(df)} rows, {len(df.columns)} columns")
@@ -112,16 +130,32 @@ def clean_data(df: pd.DataFrame, config: Optional[Dict] = None) -> pd.DataFrame:
     
     # Fill numeric columns with median (or 0 for counts/percentages)
     for col in numeric_cols:
-        if df[col].isna().sum() > 0:
-            if "pct" in col or "rate" in col or "percent" in col:
-                df[col] = df[col].fillna(0)
-            else:
-                df[col] = df[col].fillna(df[col].median())
+        try:
+            missing_count = int(df[col].isna().sum())
+            if missing_count > 0:
+                if "pct" in col or "rate" in col or "percent" in col:
+                    df[col] = df[col].fillna(0)
+                else:
+                    median_val = df[col].median()
+                    if pd.notna(median_val):
+                        df[col] = df[col].fillna(median_val)
+                    else:
+                        df[col] = df[col].fillna(0)
+        except (ValueError, TypeError):
+            # Skip columns that cause issues
+            logger.warning(f"Skipping problematic column: {col}")
+            continue
     
     # Fill categorical columns with "Unknown"
     for col in categorical_cols:
-        if df[col].isna().sum() > 0:
-            df[col] = df[col].fillna("Unknown")
+        try:
+            missing_count = int(df[col].isna().sum())
+            if missing_count > 0:
+                df[col] = df[col].fillna("Unknown")
+        except (ValueError, TypeError):
+            # Skip columns that cause issues
+            logger.warning(f"Skipping problematic column: {col}")
+            continue
     
     # Fix data types
     # Ensure institution_id is string or int (not float)
