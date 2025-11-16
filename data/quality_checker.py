@@ -29,14 +29,30 @@ def missing_value_analysis(df: pd.DataFrame) -> Dict[str, Any]:
     total_rows = len(df)
     
     for col in df.columns:
-        missing_count = df[col].isna().sum()
-        missing_pct = (missing_count / total_rows) * 100 if total_rows > 0 else 0
-        
-        missing_stats[col] = {
-            "missing_count": int(missing_count),
-            "missing_percentage": round(missing_pct, 2),
-            "non_missing_count": int(total_rows - missing_count)
-        }
+        try:
+            col_data = df[col]
+            # Handle case where col might be a DataFrame (duplicate column names)
+            if isinstance(col_data, pd.DataFrame):
+                col_data = col_data.iloc[:, 0]  # Take first column if duplicate
+            missing_count = col_data.isna().sum()
+            # Ensure it's a scalar
+            if isinstance(missing_count, pd.Series):
+                missing_count = missing_count.iloc[0] if len(missing_count) > 0 else 0
+            missing_count = int(missing_count) if pd.notna(missing_count) else 0
+            missing_pct = (missing_count / total_rows) * 100 if total_rows > 0 else 0
+            
+            missing_stats[col] = {
+                "missing_count": missing_count,
+                "missing_percentage": round(missing_pct, 2),
+                "non_missing_count": int(total_rows - missing_count)
+            }
+        except Exception as e:
+            logger.warning(f"Error analyzing column {col}: {e}")
+            missing_stats[col] = {
+                "missing_count": 0,
+                "missing_percentage": 0.0,
+                "non_missing_count": total_rows
+            }
     
     # Summary
     cols_with_missing = [col for col, stats in missing_stats.items() 
@@ -66,11 +82,20 @@ def outlier_detection(df: pd.DataFrame, method: str = "iqr") -> Dict[str, Any]:
     outlier_stats = {}
     
     for col in numeric_cols:
-        if df[col].isna().all():
-            continue
-        
-        values = df[col].dropna()
-        if len(values) == 0:
+        try:
+            col_data = df[col]
+            # Handle duplicate column names
+            if isinstance(col_data, pd.DataFrame):
+                col_data = col_data.iloc[:, 0]
+            
+            if col_data.isna().all():
+                continue
+            
+            values = col_data.dropna()
+            if len(values) == 0:
+                continue
+        except Exception as e:
+            logger.warning(f"Error processing column {col} for outliers: {e}")
             continue
         
         if method == "iqr":
@@ -80,7 +105,8 @@ def outlier_detection(df: pd.DataFrame, method: str = "iqr") -> Dict[str, Any]:
             lower_bound = Q1 - 1.5 * IQR
             upper_bound = Q3 + 1.5 * IQR
             
-            outliers = df[(df[col] < lower_bound) | (df[col] > upper_bound)]
+            col_data = df[col] if not isinstance(df[col], pd.DataFrame) else df[col].iloc[:, 0]
+            outliers = df[(col_data < lower_bound) | (col_data > upper_bound)]
             outlier_count = len(outliers)
             
         elif method == "zscore":

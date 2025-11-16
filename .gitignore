@@ -45,3 +45,6 @@ box_config.json
 # Large data files (uncomment if raw CSVs are large)
 data/raw/*.csv
 
+# Model files and training data (generated)
+models/saved_models/*.pkl
+outputs/training_data.csv

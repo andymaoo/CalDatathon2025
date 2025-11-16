@@ -8,8 +8,16 @@ import os
 from pathlib import Path
 from typing import Optional, List, Dict
 import logging
-from boxsdk import Client, OAuth2, JWTAuth
-from boxsdk.exception import BoxAPIException
+
+# Box SDK is optional
+try:
+    from boxsdk import Client, OAuth2, JWTAuth
+    from boxsdk.exception import BoxAPIException
+    BOX_SDK_AVAILABLE = True
+except ImportError:
+    BOX_SDK_AVAILABLE = False
+    logger = logging.getLogger(__name__)
+    logger.warning("boxsdk not installed. Box integration disabled. Install with: pip install boxsdk")
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -31,6 +39,11 @@ class BoxClient:
     
     def _initialize_client(self):
         """Initialize Box client with authentication."""
+        if not BOX_SDK_AVAILABLE:
+            logger.warning("Box SDK not available. Box integration disabled.")
+            self.client = None
+            return
+        
         try:
             if self.auth_type == "jwt":
                 # JWT authentication (for service accounts)
@@ -78,7 +91,7 @@ class BoxClient:
     
     def is_available(self) -> bool:
         """Check if Box client is available."""
-        return self.client is not None
+        return BOX_SDK_AVAILABLE and self.client is not None
     
     def download_bill_from_box(self, folder_id: str, filename: str, output_path: str) -> bool:
         """

@@ -12,7 +12,7 @@ import joblib
 from pathlib import Path
 from typing import Tuple, Dict, Optional
 import logging
-from model_config import FEATURE_CONFIG
+from models.model_config import FEATURE_CONFIG
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -102,6 +102,12 @@ def encode_categoricals(
             # Handle missing values
             df[col] = df[col].fillna("Unknown")
             encoders[col].fit(df[col])
+        else:
+            # Handle unseen labels during prediction
+            df[col] = df[col].fillna("Unknown")
+            # Replace unseen labels with a default value
+            known_labels = set(encoders[col].classes_)
+            df[col] = df[col].apply(lambda x: x if x in known_labels else "Unknown")
         
         df[col + "_encoded"] = encoders[col].transform(df[col])
         logger.debug(f"Encoded {col} -> {col}_encoded")
@@ -130,7 +136,7 @@ def prepare_features(
         Tuple of (feature DataFrame, scaler, encoders)
     """
     if config is None:
-        from model_config import FEATURE_CONFIG
+        from models.model_config import FEATURE_CONFIG
         config = FEATURE_CONFIG
     
     df = df.copy()

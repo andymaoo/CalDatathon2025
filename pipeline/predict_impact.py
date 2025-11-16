@@ -7,8 +7,9 @@ Purpose: Predict impacts for each college using trained ML models
 import pandas as pd
 import numpy as np
 import joblib
+import os
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Tuple
 import logging
 import os
 
@@ -48,7 +49,21 @@ def filter_affected_colleges(
     affected_types = bill_params.get("affected_types", [])
     if affected_types:
         if "institution_type" in df.columns:
-            df = df[df["institution_type"].isin(affected_types)]
+            # Map simple types to detailed types
+            type_mapping = {
+                "public": ["Public Two-Year", "Public Four-Year", "Public"],
+                "private": ["Private Not-For-Profit Four-Year", "Private For-Profit", "Private For-Profit Four-Year", "Private"],
+                "community": ["Public Two-Year", "Community College", "Community"]
+            }
+            # Expand affected_types to include all matching detailed types
+            expanded_types = []
+            for simple_type in affected_types:
+                if simple_type.lower() in type_mapping:
+                    expanded_types.extend(type_mapping[simple_type.lower()])
+                else:
+                    expanded_types.append(simple_type)
+            # Filter
+            df = df[df["institution_type"].isin(expanded_types)]
         logger.info(f"Filtered to {len(df)} colleges by institution type: {affected_types}")
     
     # Filter by state if specified
@@ -210,10 +225,11 @@ def calculate_derived_metrics(results_df: pd.DataFrame, bill_params: Dict) -> pd
     
     # Hours to cover gap
     # Get state minimum wage (default to $15 if not available)
-    min_wage = bill_params.get("min_wage_change", 0)
-    if min_wage == 0:
+    min_wage = bill_params.get("min_wage_change", None)
+    if min_wage is None or min_wage == 0:
         # Try to get from state data or use default
         min_wage = 15.0  # Default minimum wage
+    min_wage = float(min_wage) if min_wage is not None else 15.0
     
     if "affordability_gap" in df.columns:
         df["hours_to_cover_gap"] = (df["affordability_gap"] + df.get("tuition_change_dollars", 0)) / max(min_wage, 1)
@@ -296,7 +312,6 @@ def generate_plain_language_summary(
         return f"This bill affects {summary_stats.get('total_colleges_affected', 0)} colleges and {summary_stats.get('total_students_impacted', 0):,} students."
     
     try:
-        import os
         from anthropic import Anthropic
         
         client = Anthropic(api_key=api_key)

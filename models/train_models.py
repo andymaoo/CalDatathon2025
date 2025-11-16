@@ -21,8 +21,8 @@ import shap
 import matplotlib.pyplot as plt
 import logging
 
-from model_config import MODEL_CONFIGS, TRAINING_CONFIG
-from feature_engineering import (
+from models.model_config import MODEL_CONFIGS, TRAINING_CONFIG
+from models.feature_engineering import (
     prepare_features, split_data, save_preprocessing_artifacts
 )
 
@@ -147,10 +147,12 @@ def train_equity_model(X_train, y_train, X_test, y_test, config):
     logger.info(f"Accuracy: {accuracy:.4f}")
     logger.info(f"F1 Score (weighted): {f1:.4f}")
     
-    # Classification report
-    report = classification_report(y_test, y_pred, target_names=config["class_labels"], output_dict=True)
+    # Classification report - handle cases where not all classes are present
+    unique_labels = sorted(list(set(y_test) | set(y_pred)))
+    available_labels = [config["class_labels"][i] for i in unique_labels if i < len(config["class_labels"])]
+    report = classification_report(y_test, y_pred, labels=unique_labels, target_names=available_labels, output_dict=True, zero_division=0)
     logger.info("\nClassification Report:")
-    logger.info(classification_report(y_test, y_pred, target_names=config["class_labels"]))
+    logger.info(classification_report(y_test, y_pred, labels=unique_labels, target_names=available_labels, zero_division=0))
     
     # Confusion matrix
     cm = confusion_matrix(y_test, y_pred)

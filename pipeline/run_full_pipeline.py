@@ -10,6 +10,9 @@ from pathlib import Path
 import logging
 from typing import Optional
 
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 from pipeline.predict_impact import predict_bill_impact
 from pipeline.export_for_tableau import export_for_tableau
 from pipeline.box_client import initialize_box_client
@@ -113,7 +116,7 @@ Examples:
     
     # Check if models exist
     models_path = Path(args.models_dir)
-    required_models = ["tuition_model.pkl", "enrollment_model.pkl", "grad_model.pkl", "equity_model.pkl"]
+    required_models = ["tuition_model.pkl", "enrollment_model.pkl", "grad_rate_model.pkl", "equity_model.pkl"]
     missing_models = [m for m in required_models if not (models_path / m).exists()]
     if missing_models:
         logger.error(f"Missing trained models: {missing_models}")
