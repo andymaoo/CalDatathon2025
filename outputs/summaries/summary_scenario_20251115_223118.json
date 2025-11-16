@@ -1,0 +1,57 @@
+{
+  "total_colleges_affected": 12689,
+  "total_students_impacted": 0,
+  "average_tuition_change_pct": -1.3352866172790527,
+  "average_tuition_change_dollars": -268.4525750689595,
+  "average_enrollment_change_pct": 0.6705858395728274,
+  "average_grad_rate_change": -0.3680559630836422,
+  "equity_risk_breakdown": {
+    "Low": 12689
+  },
+  "high_risk_colleges": 0,
+  "top_10_most_affected": [
+    {
+      "institution_id": 217493,
+      "tuition_change_dollars": 80.12132962286472
+    },
+    {
+      "institution_id": 217402,
+      "tuition_change_dollars": 70.53111354485154
+    },
+    {
+      "institution_id": 199847,
+      "tuition_change_dollars": 65.1206878978014
+    },
+    {
+      "institution_id": 198419,
+      "tuition_change_dollars": 65.03457315266132
+    },
+    {
+      "institution_id": 166683,
+      "tuition_change_dollars": 60.43668721914291
+    },
+    {
+      "institution_id": 202046,
+      "tuition_change_dollars": 39.595734395831826
+    },
+    {
+      "institution_id": 166683,
+      "tuition_change_dollars": 36.34398022890091
+    },
+    {
+      "institution_id": 168342,
+      "tuition_change_dollars": 35.43647850751877
+    },
+    {
+      "institution_id": 209922,
+      "tuition_change_dollars": 34.527919556424024
+    },
+    {
+      "institution_id": 217156,
+      "tuition_change_dollars": 31.813717286586762
+    }
+  ],
+  "plain_language_summary": "This bill affects 12689 colleges and 0 students.",
+  "scenario_name": "scenario_20251115_223118",
+  "export_timestamp": "2025-11-15T22:31:25.906767"
+}

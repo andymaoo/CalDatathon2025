@@ -49,7 +49,17 @@ def export_predicted_impact(
     ]
     
     # Add demographic columns if available
-    demographic_cols = ["pct_low_income", "pct_minority", "enrollment", "net_price", "grad_rate"]
+    # Try to find enrollment column (could be enrollment or total_enrollment)
+    enrollment_col = None
+    for col in ["enrollment", "total_enrollment", "total_enroll"]:
+        if col in predictions_df.columns:
+            enrollment_col = col
+            break
+    
+    demographic_cols = ["pct_low_income", "pct_minority", "net_price", "grad_rate"]
+    if enrollment_col:
+        demographic_cols.append(enrollment_col)
+    
     for col in demographic_cols:
         if col in predictions_df.columns and col not in key_columns:
             key_columns.append(col)

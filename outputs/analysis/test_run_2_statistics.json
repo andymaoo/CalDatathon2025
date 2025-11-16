@@ -7,86 +7,95 @@
     "students_affected": 8073.0,
     "grad_rate_change": 8073.0,
     "hours_to_cover_gap": 8073.0,
-    "net_price": 8073.0
+    "net_price": 8073.0,
+    "total_enrollment": 8073.0
   },
   "mean": {
     "institution_id": 205138.38213799085,
     "tuition_change_pct": -1.3256493397534994,
     "tuition_change_dollars": -149.48147038212855,
     "enrollment_change_pct": 0.42821801686581595,
-    "students_affected": 0.0,
+    "students_affected": 39.79854022396183,
     "grad_rate_change": -0.4060167910277617,
     "hours_to_cover_gap": -9.96543135880857,
-    "net_price": 11334.878359965316
+    "net_price": 11334.878359965316,
+    "total_enrollment": 8114.39353400223
   },
   "std": {
     "institution_id": 87528.06189485964,
     "tuition_change_pct": 0.24996015108238612,
     "tuition_change_dollars": 81.11349001805857,
     "enrollment_change_pct": 0.28042213238596003,
-    "students_affected": 0.0,
-    "grad_rate_change": 0.11618543415592383,
+    "students_affected": 67.28131735919885,
+    "grad_rate_change": 0.11618543415592382,
     "hours_to_cover_gap": 5.407566001203904,
-    "net_price": 5870.25833974562
+    "net_price": 5870.25833974562,
+    "total_enrollment": 10472.54819805086
   },
   "min": {
     "institution_id": 100654.0,
     "tuition_change_pct": -2.0466979,
     "tuition_change_dollars": -407.5211089086533,
     "enrollment_change_pct": -0.122944206435753,
-    "students_affected": 0.0,
-    "grad_rate_change": -0.6693275659490197,
+    "students_affected": 0.0004400351644176,
+    "grad_rate_change": -0.6693275659490194,
     "hours_to_cover_gap": -27.16807392724355,
-    "net_price": -6023.0
+    "net_price": -6023.0,
+    "total_enrollment": 2.0
   },
   "25%": {
     "institution_id": 150987.0,
     "tuition_change_pct": -1.5081623,
     "tuition_change_dollars": -182.17260959386823,
     "enrollment_change_pct": 0.2341739146865561,
-    "students_affected": 0.0,
+    "students_affected": 4.704480858832418,
     "grad_rate_change": -0.5052351861246516,
     "hours_to_cover_gap": -12.144840639591218,
-    "net_price": 7127.0
+    "net_price": 7127.0,
+    "total_enrollment": 1809.0
   },
   "50%": {
     "institution_id": 190442.0,
     "tuition_change_pct": -1.3186449,
     "tuition_change_dollars": -142.58089576721193,
     "enrollment_change_pct": 0.3416616158074791,
-    "students_affected": 0.0,
-    "grad_rate_change": -0.4512039049845175,
+    "students_affected": 14.084809852636807,
+    "grad_rate_change": -0.4512039049845176,
     "hours_to_cover_gap": -9.50539305114746,
-    "net_price": 10676.0
+    "net_price": 10676.0,
+    "total_enrollment": 4434.0
   },
   "75%": {
     "institution_id": 226107.0,
     "tuition_change_pct": -1.1590431,
     "tuition_change_dollars": -85.63853786945343,
     "enrollment_change_pct": 0.6234914563719033,
-    "students_affected": 0.0,
-    "grad_rate_change": -0.2695009076942815,
+    "students_affected": 44.15391612213139,
+    "grad_rate_change": -0.2695009076942814,
     "hours_to_cover_gap": -5.709235857963562,
-    "net_price": 14959.0
+    "net_price": 14959.0,
+    "total_enrollment": 9808.0
   },
   "max": {
     "institution_id": 497046.0,
     "tuition_change_pct": -0.388947,
     "tuition_change_dollars": 70.58160560131073,
     "enrollment_change_pct": 1.254659514110767,
-    "students_affected": 0.0,
+    "students_affected": 901.7505055658576,
     "grad_rate_change": -0.1400246838565451,
     "hours_to_cover_gap": 4.705440373420715,
-    "net_price": 43378.0
+    "net_price": 43378.0,
+    "total_enrollment": 88914.0
   },
   "median": {
     "institution_id": 190442.0,
     "tuition_change_pct": -1.3186449,
     "tuition_change_dollars": -142.58089576721193,
     "enrollment_change_pct": 0.3416616158074791,
-    "students_affected": 0.0,
-    "grad_rate_change": -0.4512039049845175,
+    "students_affected": 14.084809852636807,
+    "grad_rate_change": -0.4512039049845176,
     "hours_to_cover_gap": -9.50539305114746,
-    "net_price": 10676.0
+    "net_price": 10676.0,
+    "total_enrollment": 4434.0
   }
 }

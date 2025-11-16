@@ -94,24 +94,35 @@ def build_prediction_features(
     df["tuition_cap_pct"] = bill_params.get("tuition_cap_pct", 0)
     
     # Ensure required columns exist with defaults
-    required_cols = {
-        "enrollment": 5000,
-        "pct_low_income": 30,
-        "pct_minority": 25,
-        "baseline_tuition": "net_price",
-        "baseline_grad_rate": "grad_rate"
+    # Map common column name variations
+    column_mappings = {
+        "enrollment": ["enrollment", "total_enrollment", "total_enroll"],
+        "pct_low_income": ["pct_low_income", "pell_pct", "pct_pell"],
+        "pct_minority": ["pct_minority", "percent_minority"],
+        "baseline_tuition": ["baseline_tuition", "net_price", "tuition"],
+        "baseline_grad_rate": ["baseline_grad_rate", "grad_rate", "graduation_rate"]
     }
     
-    for col, default in required_cols.items():
-        if col not in df.columns:
-            if isinstance(default, str):
-                # Try alternative column name
-                if default in df.columns:
-                    df[col] = df[default]
-                else:
-                    df[col] = 0
-            else:
-                df[col] = default
+    for target_col, alternatives in column_mappings.items():
+        if target_col not in df.columns:
+            # Try to find alternative column name
+            found = False
+            for alt_col in alternatives:
+                if alt_col in df.columns:
+                    df[target_col] = df[alt_col]
+                    found = True
+                    break
+            
+            if not found:
+                # Use default value
+                defaults = {
+                    "enrollment": 5000,
+                    "pct_low_income": 30,
+                    "pct_minority": 25,
+                    "baseline_tuition": 10000,
+                    "baseline_grad_rate": 60
+                }
+                df[target_col] = defaults.get(target_col, 0)
     
     # Rename columns if needed
     if "baseline_tuition" not in df.columns and "net_price" in df.columns:
@@ -210,8 +221,15 @@ def calculate_derived_metrics(results_df: pd.DataFrame, bill_params: Dict) -> pd
         df["tuition_change_dollars"] = 0
     
     # Students affected
-    if "enrollment" in df.columns and "enrollment_change_pct" in df.columns:
-        df["students_affected"] = (df["enrollment"] * abs(df["enrollment_change_pct"])) / 100
+    # Try to find enrollment column (could be enrollment or total_enrollment)
+    enrollment_col = None
+    for col in ["enrollment", "total_enrollment", "total_enroll"]:
+        if col in df.columns:
+            enrollment_col = col
+            break
+    
+    if enrollment_col and "enrollment_change_pct" in df.columns:
+        df["students_affected"] = (df[enrollment_col] * abs(df["enrollment_change_pct"])) / 100
     else:
         df["students_affected"] = 0
     
