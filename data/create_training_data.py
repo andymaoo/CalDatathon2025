@@ -52,7 +52,8 @@ def generate_synthetic_scenarios(
         if pd.isna(baseline_tuition) or baseline_tuition <= 0:
             baseline_tuition = 10000  # Default
         
-        enrollment = college.get("enrollment", 5000)
+        # Try multiple column names for enrollment
+        enrollment = college.get("enrollment") or college.get("total_enrollment") or college.get("total_enroll")
         if pd.isna(enrollment) or enrollment <= 0:
             enrollment = 5000  # Default
         

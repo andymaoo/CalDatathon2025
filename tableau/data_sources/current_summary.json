@@ -1,6 +1,6 @@
 {
   "total_colleges_affected": 8073,
-  "total_students_impacted": 0,
+  "total_students_impacted": 321293,
   "average_tuition_change_pct": -1.325649380683899,
   "average_tuition_change_dollars": -149.48147038212855,
   "average_enrollment_change_pct": 0.42821801686581595,
@@ -51,7 +51,7 @@
       "tuition_change_dollars": 31.457556864023207
     }
   ],
-  "plain_language_summary": "This bill affects 8073 colleges and 0 students.",
-  "scenario_name": "test",
-  "export_timestamp": "2025-11-15T21:59:02.755781"
+  "plain_language_summary": "This bill affects 8073 colleges and 321,293 students.",
+  "scenario_name": "test_columns",
+  "export_timestamp": "2025-11-15T23:18:22.928270"
 }

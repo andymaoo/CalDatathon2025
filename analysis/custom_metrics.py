@@ -154,9 +154,16 @@ def institution_resilience_analysis(df: pd.DataFrame) -> pd.DataFrame:
     resilience_components = []
     
     # Component 1: Large enrollment (more resilient)
-    if "enrollment" in df.columns:
-        if df["enrollment"].max() > 0:
-            enrollment_resilience = (df["enrollment"] / df["enrollment"].max()) * 100
+    # Try to find enrollment column (could be enrollment or total_enrollment)
+    enrollment_col = None
+    for col in ["enrollment", "total_enrollment", "total_enroll"]:
+        if col in df.columns:
+            enrollment_col = col
+            break
+    
+    if enrollment_col:
+        if df[enrollment_col].max() > 0:
+            enrollment_resilience = (df[enrollment_col] / df[enrollment_col].max()) * 100
         else:
             enrollment_resilience = pd.Series(50, index=df.index)
         resilience_components.append(enrollment_resilience)
