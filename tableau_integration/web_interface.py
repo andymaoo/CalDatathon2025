@@ -45,9 +45,9 @@ def run_pipeline(pdf_file, scenario_name):
         f.write(pdf_file.getbuffer())
     
     try:
-        # Run pipeline
+        # Run pipeline using the same Python interpreter (venv)
         cmd = [
-            "python", "pipeline/run_full_pipeline.py",
+            sys.executable, "pipeline/run_full_pipeline.py",
             "--bill", str(temp_pdf),
             "--scenario", scenario_name
         ]
