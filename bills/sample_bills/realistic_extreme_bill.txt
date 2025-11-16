@@ -1,0 +1,225 @@
+SB 1847
+Page 1
+
+Date of Hearing: January 15, 2025
+
+ASSEMBLY COMMITTEE ON EDUCATION
+Assemblymember Patricia Martinez, Chair
+
+SB 1847 (Senator Johnson) – As Amended January 10, 2025
+
+SENATE VOTE: 31-9
+
+SUBJECT: Higher Education Emergency Budget Reconciliation Act: Funding Reductions, Student Worker Wages, and Family Support
+
+SUMMARY: Implements emergency budget reconciliation measures requiring a 25 percent reduction in state appropriations to public universities and community colleges over a two-year period. Establishes a 2 percent annual tuition increase cap for institutions receiving state or federal aid. Increases minimum wage for student workers by $8.00 per hour and provides $8,000 annual childcare subsidies for enrolled student-parents. Specifically, this bill:
+
+1) Requires a 25 percent reduction in state General Fund appropriations to the University of California (UC), California State University (CSU), and California Community Colleges (CCC) system to be implemented over fiscal years 2025-26 and 2026-27.
+
+2) Establishes the Student Worker Fair Wage Act, increasing minimum wage for all campus-employed student workers, Federal Work-Study participants, and graduate student workers by $8.00 per hour above current state minimum wage, reaching $20.00 per hour effective July 1, 2025.
+
+3) Creates the Student Parent Success Fund to provide $8,000 annual childcare subsidies to enrolled student-parents at public universities, community colleges, and participating private institutions.
+
+4) Limits annual tuition and mandatory fee increases to a maximum of 2 percent for all institutions of higher education receiving state or federal financial aid, including public universities, private universities, and community colleges.
+
+5) Requires institutions to report annually on the impact of funding reductions on instructional quality, student services, enrollment, graduation rates, and equity outcomes.
+
+6) Establishes performance-based funding criteria tying 15 percent of remaining state appropriations to graduation rates, equity metrics, and job placement outcomes.
+
+EXISTING LAW:
+
+1) Establishes the University of California as a public trust, administered by the Regents of the University of California, with constitutional autonomy over internal operations, as specified. (Cal. Const., art. IX, § 9)
+
+2) Establishes the California State University under the administration of the Trustees of the California State University, as a state university system. (Education Code § 66600 et seq.)
+
+3) Establishes the California Community Colleges as the primary provider of lower division undergraduate education, workforce development, and basic skills instruction. (Ed. Code § 70900 et seq.)
+
+4) Requires the state to provide a minimum level of funding for K-14 education through Proposition 98, constitutionally guaranteeing minimum annual funding based on specific economic conditions. (Cal. Const., art. XVI, § 8)
+
+5) Establishes state minimum wage at $12.00 per hour as of January 1, 2024, with scheduled increases to $15.00 per hour by 2026. (Labor Code § 1182.12)
+
+6) Provides that governing boards of public universities and community colleges have authority to establish tuition and fee levels, subject to legislative appropriation and oversight. (Ed. Code §§ 66017, 70901, 76300)
+
+FISCAL EFFECT: According to the Senate Appropriations Committee:
+
+State Costs:
+- General Fund reduction: $15.2 billion annually ($7.6 billion in FY 2025-26, additional $7.6 billion in FY 2026-27)
+  • UC reduction: $4.8 billion (25% of current $19.2B appropriation)
+  • CSU reduction: $4.2 billion (25% of current $16.8B appropriation)
+  • CCC reduction: $6.2 billion (25% of current $24.8B appropriation)
+
+- Student Parent Success Fund: $2.4 billion annually (estimated 300,000 student-parents × $8,000)
+
+- Increased student worker wages: $850 million annually in additional labor costs to institutions (estimated 425,000 student workers × 20 hours/week × 52 weeks × $8/hour increase)
+
+Net General Fund savings: $12.8 billion annually after childcare subsidy costs
+
+Local Costs:
+- Community college districts will face significant budget shortfalls requiring potential program reductions, staff layoffs, and course section cuts
+- Estimated 400,000 students may be unable to continue enrollment due to reduced course availability
+
+Private Institution Impact:
+- Private institutions accepting state or federal aid must comply with 2% tuition cap
+- Estimated 180 private colleges and universities affected
+
+COMMENTS:
+
+Need for the bill. According to the author, "California faces an unprecedented budget deficit requiring immediate action to reduce state spending. The Higher Education Emergency Budget Reconciliation Act implements necessary fiscal measures while protecting students through wage increases and family support. By requiring a 25 percent reduction in higher education appropriations over two years, we address the state's fiscal crisis while providing a reasonable transition period for institutions to adjust. The Student Worker Fair Wage Act ensures students can better afford their education through increased earnings, and the Student Parent Success Fund removes a critical barrier preventing parents from completing their degrees. The 2 percent tuition cap protects students from excessive cost increases during this difficult period."
+
+Background on California Higher Education Funding. California's public higher education system serves approximately 2.9 million students across 10 UC campuses, 23 CSU campuses, and 116 community college districts. State General Fund appropriations totaled approximately $60.8 billion in 2024-25, representing the largest single investment in the state budget after K-12 education and healthcare.
+
+The state has historically faced budget volatility affecting higher education funding. During the 2008-2009 recession, higher education funding was reduced by approximately 20 percent, resulting in significant tuition increases, enrollment reductions, and program cuts. While funding was largely restored by 2018, institutions implemented structural changes including increased reliance on non-resident tuition, reduced course offerings in non-STEM fields, and deferred maintenance on facilities.
+
+Current Budget Crisis. The 2025-26 budget projects a $68 billion deficit driven by declining tax revenues, increased healthcare and pension costs, and reduced federal funding. The Legislative Analyst's Office has identified higher education as one of few budget areas with sufficient magnitude to meaningfully address the shortfall without affecting constitutionally-protected K-12 funding or essential services.
+
+Funding Reduction Implementation. This bill requires a 25 percent reduction phased over two fiscal years:
+- FY 2025-26: 12.5% reduction ($7.6 billion)
+- FY 2026-27: Additional 12.5% reduction ($7.6 billion)
+
+The phased approach provides institutions time to implement cost-saving measures including:
+- Administrative consolidation and efficiency improvements
+- Voluntary faculty and staff retirement incentive programs
+- Reduced course sections in lower-demand programs
+- Increased class sizes in high-demand programs
+- Deferred facility maintenance and capital projects
+- Reduced student services and support programs
+
+Student Worker Wage Increase. The Student Worker Fair Wage Act increases minimum wage for approximately 425,000 student workers to $20.00 per hour, an $8.00 increase over the current $12.00 state minimum wage. This increase aims to:
+- Reduce students' need for external employment, allowing more time for studies
+- Decrease student loan debt by increasing work-study earnings
+- Support students in covering basic living expenses
+- Reduce food insecurity and housing instability among students
+
+Research indicates that student employment of 15-20 hours per week correlates with improved academic outcomes, while employment exceeding 20 hours negatively impacts graduation rates. The wage increase allows students to meet financial needs with fewer work hours.
+
+Institutions estimate the $8.00/hour increase will cost approximately $850 million annually in additional labor costs, requiring reallocation from other budget areas or reduction in student employment positions.
+
+Student Parent Childcare Subsidy. The Student Parent Success Fund provides $8,000 annual childcare subsidies to enrolled student-parents, addressing a critical barrier to degree completion. Research from the Institute for Women's Policy Research indicates:
+- 22% of undergraduates are parents (approximately 4.8 million students nationally)
+- 43% of student-parents are single parents
+- 52% of student-parents work 20+ hours per week
+- Only 11% of student-parents complete bachelor's degrees within six years, compared to 67% of non-parents
+
+Annual childcare costs average $11,000-$15,000, consuming 30-50% of student-parent income. The $8,000 subsidy reduces this burden by approximately 60%, enabling parents to reduce work hours, increase study time, and complete degrees.
+
+California's 116 community colleges serve an estimated 220,000 student-parents, while UC and CSU serve approximately 80,000 student-parents combined. The program is expected to cost $2.4 billion annually.
+
+Institutions must either provide on-campus subsidized childcare or partner with licensed childcare providers to qualify for the subsidy funds. This requirement may necessitate facility construction or renovation, contractual agreements with providers, and administrative infrastructure.
+
+Tuition Cap Implementation. The 2 percent annual tuition increase cap applies to all institutions receiving state or federal student financial aid, including:
+- University of California (10 campuses)
+- California State University (23 campuses)
+- California Community Colleges (116 districts)
+- Private colleges and universities accepting federal student aid (approximately 180 institutions)
+
+Current tuition levels:
+- UC resident undergraduate: $13,752 annually
+- CSU resident undergraduate: $5,742 annually
+- Community college enrollment fee: $46 per unit
+
+Without the cap, institutions facing 25% funding reductions would likely increase tuition 10-15% annually to offset lost state revenue. The 2% cap limits UC tuition increases to $275 per year and CSU increases to $115 per year, protecting students from steep cost increases.
+
+However, the cap significantly constrains institutional budgetary flexibility. With reduced state funding and limited tuition revenue growth, institutions must implement cost reductions through program cuts, enrollment restrictions, and service reductions.
+
+The Committee may wish to consider whether a 2% cap is sustainable given the magnitude of funding reductions, or whether a higher cap (3-4%) would provide institutions needed fiscal flexibility while still protecting students from excessive increases.
+
+Equity and Access Concerns. The bill's combined effects raise significant equity and access concerns:
+
+Enrollment Reductions: The 25% funding cut combined with the 2% tuition cap will likely force enrollment reductions. The Legislative Analyst's Office estimates 300,000-400,000 students may be unable to access higher education due to reduced capacity, with disproportionate impact on:
+- Low-income students competing for reduced enrollment slots
+- Students in rural areas where community colleges may close satellite campuses
+- Part-time students as institutions prioritize full-time enrollment
+- Students in high-cost majors requiring expensive labs or equipment
+
+Program Elimination: Institutions will likely eliminate low-enrollment programs, particularly in humanities, arts, and social sciences. This reduces student choice and may eliminate pathways for students interested in these fields.
+
+Support Service Reductions: Budget cuts typically affect student support services including tutoring, counseling, career services, and disability services. Research indicates these services are critical for student success, particularly for first-generation and underrepresented minority students.
+
+Transfer Pathways: Community college course reductions may disrupt transfer pathways to UC and CSU, as students unable to complete required courses within two years face delays or inability to transfer.
+
+Student Worker Employment: While the wage increase benefits employed students, institutions may reduce total student worker positions to manage costs. This could decrease employment opportunities, particularly affecting low-income students who rely on campus employment.
+
+Positive Equity Impacts: The Student Parent Success Fund represents a significant positive equity intervention. Student-parents are disproportionately low-income, first-generation, and students of color. Removing childcare cost barriers could dramatically improve completion rates for this population.
+
+The wage increase benefits working students, who are disproportionately low-income and underrepresented minorities. Higher hourly wages reduce the need for excessive work hours that negatively impact academic performance.
+
+Performance-Based Funding Concerns. The bill ties 15% of remaining state appropriations to graduation rates, equity metrics, and job placement. While intended to incentivize positive outcomes, performance-based funding can create perverse incentives:
+- Institutions may restrict enrollment of academically underprepared students to protect graduation rates
+- Colleges may eliminate rigorous programs with lower completion rates
+- Transfer-oriented community colleges may be disadvantaged compared to career-technical programs
+
+The Committee may wish to consider whether performance-based funding should be implemented during a period of severe budget cuts, or whether institutions need flexibility to manage the fiscal crisis before adding accountability requirements.
+
+Implementation Timeline and Institutional Planning. The two-year phase-in provides institutions time to plan, but the January 2025 hearing date leaves little time before the 2025-26 fiscal year begins on July 1, 2025. Institutions need clarity on funding levels by March 2025 to:
+- Issue employment notices to faculty and staff
+- Make course scheduling decisions for fall 2025
+- Determine enrollment targets
+- Adjust student services
+
+The Committee may wish to consider whether implementation should be delayed to FY 2026-27 to provide adequate planning time, or whether the budget crisis requires immediate action.
+
+Alternative Approaches. The Committee may wish to consider alternative approaches to address the budget deficit while protecting higher education:
+
+1) Targeted Reductions: Rather than across-the-board 25% cuts, prioritize reductions in administrative spending, non-instructional functions, and high-cost low-enrollment programs.
+
+2) Revenue Enhancements: Increase non-resident tuition, expand corporate partnerships, pursue philanthropic fundraising, or implement progressive tuition based on family income.
+
+3) Efficiency Measures: Require inter-segmental coordination to eliminate duplicative programs, consolidate administrative functions, and share facilities.
+
+4) Federal Funding: Advocate for increased federal support for higher education, Pell Grant expansion, and infrastructure investments.
+
+5) Progressive Cuts: Implement larger cuts to UC (30%) and smaller cuts to community colleges (20%), recognizing CCC's mission serving low-income students and the population's greater vulnerability to access barriers.
+
+Arguments in Support. The California Taxpayers Association writes, "California faces an unprecedented fiscal crisis requiring immediate action to reduce spending. Higher education represents the largest discretionary budget area where reductions can be implemented without affecting constitutionally-protected K-12 funding or essential health and safety services. The 25 percent reduction is significant but necessary to address the $68 billion deficit. The two-year phase-in provides institutions time to adjust, and the 2% tuition cap protects students from excessive cost increases. The Student Worker Fair Wage Act and Student Parent Success Fund demonstrate the Legislature's commitment to supporting students while addressing the fiscal crisis. We support SB 1847 as a balanced approach to necessary budget reductions."
+
+The California Chamber of Commerce writes, "Reducing state spending is essential to restoring fiscal stability and creating a positive business climate. Higher education institutions have substantial reserves, diversified revenue sources, and capacity to operate more efficiently. The wage increase for student workers supports California's young workforce and reduces student debt. We support this measure as part of comprehensive budget reform."
+
+Arguments in Opposition. The California Faculty Association writes, "SB 1847 would devastate California's public higher education system, forcing enrollment reductions that will deny 300,000-400,000 students access to college. The 25% funding cut combined with a 2% tuition cap creates an impossible fiscal situation requiring massive program eliminations, faculty and staff layoffs, and service reductions that will harm students for generations. While we support the Student Parent Success Fund and wage increases, these positive provisions cannot offset the catastrophic impact of the funding cuts. California should instead pursue revenue enhancements including progressive income tax increases, closing corporate tax loopholes, and reallocating funding from other state priorities. We strongly oppose SB 1847 unless the funding reduction is eliminated."
+
+The University of California Regents write, "The UC strongly opposes the 25% General Fund reduction required by SB 1847. This reduction would force elimination of entire campuses or programs, layoffs of thousands of faculty and staff, and enrollment reductions of 50,000-70,000 students. UC serves as an economic engine generating $82 billion in annual economic activity and 230,000 jobs. Reducing UC's capacity will harm California's workforce development, research enterprise, and economic competitiveness. The 2% tuition cap prevents UC from offsetting state cuts through modest tuition increases, creating an untenable fiscal situation. While we appreciate the student support provisions, we cannot support legislation that would fundamentally undermine UC's mission and capacity."
+
+The California Community Colleges Chancellor's Office writes, "Community colleges serve California's most vulnerable students, including low-income individuals, students of color, first-generation students, and working adults seeking skills training. A 25% funding reduction would force closure of satellite campuses in rural areas, elimination of evening and weekend courses serving working students, and reduction of support services essential for student success. An estimated 400,000 community college students would be unable to enroll or would face delayed graduation due to reduced course availability. This would perpetuate inequity and limit economic mobility for the populations CCC is designed to serve. We oppose SB 1847 and urge the Legislature to protect community college funding."
+
+The Campaign for College Opportunity writes, "While SB 1847 includes positive provisions for student-parents and working students, the overall impact would be devastating for educational equity and access. Research demonstrates that state disinvestment in higher education leads to increased tuition, reduced enrollment of low-income students, and widening achievement gaps. California should not repeat the mistakes of the 2008-2009 recession, which took a decade to reverse. We urge the Legislature to reject cuts to higher education and instead pursue progressive revenue measures to maintain access and equity."
+
+Related Legislation:
+
+AB 1204 (Alvarez) of 2025-26 would increase LCFF funding and expand eligibility for supplemental and concentration grants.
+
+AB 477 (Muratsuchi) of 2025-26 would establish LCFF funding targets for increasing school employee salaries.
+
+SB 892 (Newman) of 2024-25 would have required community colleges to provide on-campus childcare. Senate Education Committee.
+
+AB 1547 (McCarty) of 2024-25 would have increased state funding for UC and CSU by 5% annually. Senate Appropriations Committee, held.
+
+SB 1898 (Cortese) of 2023-24 established the Student Basic Needs Taskforce to address food and housing insecurity. Chapter 567, Statutes of 2024.
+
+REGISTERED SUPPORT:
+
+California Taxpayers Association
+California Chamber of Commerce
+Howard Jarvis Taxpayers Association
+California Business Roundtable
+Independent Institute
+15 individuals
+
+REGISTERED OPPOSITION:
+
+California Faculty Association (CFA)
+University of California Regents
+California State University Trustees
+California Community Colleges Chancellor's Office
+Campaign for College Opportunity
+California Teachers Association
+Service Employees International Union (SEIU)
+Student Senate for California Community Colleges
+University of California Student Association
+California State Student Association
+Young Invincibles
+The Education Trust – West
+Students for Quality Education
+College Futures Foundation
+Children Now
+42 individuals
+
+Analysis Prepared by: Michael Chen / ED. / (916) 319-2087

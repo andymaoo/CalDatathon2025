@@ -1,0 +1,91 @@
+EXTREME EDUCATION IMPACT ACT OF 2025
+H.R. 1 - Federal Higher Education Reform and Budget Reconciliation
+
+SENATE VOTE: Pending
+HOUSE VOTE: Pending
+
+SUMMARY: This bill implements comprehensive reforms to federal and state higher education funding, combining elements from multiple legislative proposals to address the national education funding crisis.
+
+TITLE I: FEDERAL FUNDING REDUCTIONS
+
+Section 101: Pell Grant Program Modifications
+- Reduces total federal Pell Grant appropriations by 25 percent ($350 billion reduction over 10 years)
+- Implements full-time enrollment requirements (30+ credits per year)
+- Eliminates Pell Grant funding for part-time students (less than half-time enrollment)
+- Estimated impact: 4.4 million students will lose or have reduced Pell Grant funding
+
+Section 102: Federal Work-Study Reductions
+- Cuts Federal Work-Study funding by 20 percent
+- Reduces maximum hourly wages for student workers
+
+TITLE II: STATE FUNDING MANDATES
+
+Section 201: State Appropriations Reduction
+- Requires states to implement 20 percent reduction in state appropriations to public universities and colleges over 2-year period
+- Applies to all public four-year universities, community colleges, and public two-year institutions
+- Total estimated state funding reduction: $15 billion annually
+
+Section 202: Matching Requirements
+- States must match federal funding reductions with proportional state cuts
+- Eliminates maintenance of effort provisions
+
+TITLE III: TUITION AND FEE REGULATIONS
+
+Section 301: Tuition Increase Cap
+- Limits annual tuition increases to 2 percent maximum for institutions receiving federal student aid
+- Applies to public universities, private universities, and community colleges
+- Institutions exceeding cap lose federal student aid eligibility
+
+Section 302: Fee Restrictions
+- Caps mandatory fees at 3 percent of base tuition
+- Eliminates ability to charge separate program fees
+
+TITLE IV: MINIMUM WAGE IMPACTS
+
+Section 401: Student Worker Wage Requirements
+- Increases minimum wage for all student workers to $20 per hour
+- Applies to Federal Work-Study, institutional employment, and campus-based work
+- Institutions must cover increased labor costs without additional federal funding
+- Estimated additional institutional cost: $8 per hour increase from current minimum
+
+TITLE V: CHILDCARE AND FAMILY SUPPORT
+
+Section 501: Student Parent Childcare Subsidy
+- Provides $8,000 annual childcare subsidy for enrolled student-parents
+- Funded through institutional budgets (no additional federal funding)
+- Institutions must provide or arrange subsidized childcare
+
+TITLE VI: INSTITUTIONAL REQUIREMENTS
+
+Section 601: Performance-Based Funding
+- Ties 30 percent of federal funding to graduation rates and job placement
+- Institutions with below-average performance face additional 15 percent funding reduction
+
+Section 602: Administrative Spending Limits
+- Caps administrative spending at 15 percent of total budget
+- Requires staff reductions at non-compliant institutions
+
+AFFECTED INSTITUTIONS:
+- All public universities and colleges
+- All private non-profit universities and colleges
+- All community colleges and public two-year institutions
+- Approximately 4,000+ institutions nationwide
+- Affects all 50 states
+
+FISCAL IMPACT:
+- Total federal funding reduction: $350 billion over 10 years
+- Annual federal savings: $35 billion
+- State funding reduction required: $15 billion annually
+- Total higher education funding reduction: $50 billion annually
+
+ENROLLMENT IMPACT ESTIMATE:
+- 4.4 million Pell Grant recipients affected
+- Estimated 2-3 million students may be unable to afford college
+- Disproportionate impact on low-income students, minority students, and first-generation college students
+
+EQUITY CONSIDERATIONS:
+- High-risk equity impact for institutions serving predominantly low-income and minority students
+- Community colleges expected to experience highest enrollment declines
+- Rural and underserved area institutions face closure risk
+
+This bill represents the most significant reduction in federal higher education funding in history.
