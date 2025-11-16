@@ -26,6 +26,13 @@ st.set_page_config(
 TABLEAU_DIR = Path(__file__).parent.parent / "tableau" / "data_sources"
 TABLEAU_DIR.mkdir(parents=True, exist_ok=True)
 
+# Tableau Public dashboard URLs (set these after publishing to Tableau Public)
+TABLEAU_DASHBOARDS = {
+    "geographic": None,  # Set to: "https://public.tableau.com/views/GeographicImpact/Sheet1"
+    "metrics": None,    # Set to: "https://public.tableau.com/views/AdvancedMetrics/Sheet1"
+    "detail": None      # Set to: "https://public.tableau.com/views/CollegeDetail/Sheet1"
+}
+
 
 def run_pipeline(pdf_file, scenario_name):
     """Run the pipeline on uploaded PDF."""
@@ -113,6 +120,31 @@ def main():
         st.markdown("### Tableau Connection")
         st.info(f"Outputs saved to:\n`{TABLEAU_DIR}`")
         st.markdown("Connect Tableau to:\n- `current_predictions.csv`")
+        
+        st.markdown("---")
+        st.markdown("### Tableau Public Embedding")
+        if any(TABLEAU_DASHBOARDS.values()):
+            st.success("✅ Dashboards configured")
+            with st.expander("Configure Dashboard URLs"):
+                geographic_url = st.text_input(
+                    "Geographic Impact URL",
+                    value=TABLEAU_DASHBOARDS.get("geographic") or "",
+                    help="Paste Tableau Public URL for Geographic Impact dashboard"
+                )
+                metrics_url = st.text_input(
+                    "Advanced Metrics URL",
+                    value=TABLEAU_DASHBOARDS.get("metrics") or "",
+                    help="Paste Tableau Public URL for Advanced Metrics dashboard"
+                )
+                detail_url = st.text_input(
+                    "College Detail URL",
+                    value=TABLEAU_DASHBOARDS.get("detail") or "",
+                    help="Paste Tableau Public URL for College Detail dashboard"
+                )
+                if st.button("Update URLs"):
+                    st.info("To persist URLs, update TABLEAU_DASHBOARDS in web_interface.py")
+        else:
+            st.info("💡 After publishing to Tableau Public, add URLs in code to enable embedding")
     
     # Main area
     col1, col2 = st.columns([2, 1])
@@ -154,6 +186,39 @@ def main():
                             if "plain_language_summary" in summary:
                                 st.markdown("### Plain Language Summary")
                                 st.info(summary["plain_language_summary"])
+                            
+                            # Display Tableau dashboards if URLs are configured
+                            if any(TABLEAU_DASHBOARDS.values()):
+                                st.markdown("---")
+                                st.markdown("### 📊 Interactive Dashboards")
+                                st.info("View detailed visualizations below. Dashboards update automatically when you refresh Tableau Public.")
+                                
+                                # Dashboard 1: Geographic Impact
+                                if TABLEAU_DASHBOARDS.get("geographic"):
+                                    st.subheader("🗺️ Geographic Impact Heatmap")
+                                    st.components.v1.html(
+                                        f'<iframe src="{TABLEAU_DASHBOARDS["geographic"]}" width="100%" height="800" frameborder="0"></iframe>',
+                                        height=800,
+                                        scrolling=True
+                                    )
+                                
+                                # Dashboard 2: Advanced Metrics
+                                if TABLEAU_DASHBOARDS.get("metrics"):
+                                    st.subheader("📈 Advanced Metrics Dashboard")
+                                    st.components.v1.html(
+                                        f'<iframe src="{TABLEAU_DASHBOARDS["metrics"]}" width="100%" height="800" frameborder="0"></iframe>',
+                                        height=800,
+                                        scrolling=True
+                                    )
+                                
+                                # Dashboard 3: College Detail
+                                if TABLEAU_DASHBOARDS.get("detail"):
+                                    st.subheader("🏫 College Detail View")
+                                    st.components.v1.html(
+                                        f'<iframe src="{TABLEAU_DASHBOARDS["detail"]}" width="100%" height="800" frameborder="0"></iframe>',
+                                        height=800,
+                                        scrolling=True
+                                    )
                     else:
                         st.error(f"❌ Pipeline failed: {message}")
     

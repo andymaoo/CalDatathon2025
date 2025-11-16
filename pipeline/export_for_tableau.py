@@ -9,6 +9,7 @@ import json
 from pathlib import Path
 from typing import Dict, Optional
 import logging
+import shutil
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -33,6 +34,13 @@ def export_predicted_impact(
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
     
+    # Create a copy for export to avoid modifying original
+    export_df = predictions_df.copy()
+    
+    # Map institution_name to name if needed (master dataset uses institution_name)
+    if "institution_name" in export_df.columns and "name" not in export_df.columns:
+        export_df["name"] = export_df["institution_name"]
+    
     # Select key columns for Tableau
     key_columns = [
         "institution_id",
@@ -48,11 +56,17 @@ def export_predicted_impact(
         "hours_to_cover_gap"
     ]
     
+    # Add geographic columns if available
+    geographic_cols = ["latitude", "longitude"]
+    for col in geographic_cols:
+        if col in export_df.columns and col not in key_columns:
+            key_columns.append(col)
+    
     # Add demographic columns if available
     # Try to find enrollment column (could be enrollment or total_enrollment)
     enrollment_col = None
     for col in ["enrollment", "total_enrollment", "total_enroll"]:
-        if col in predictions_df.columns:
+        if col in export_df.columns:
             enrollment_col = col
             break
     
@@ -61,14 +75,14 @@ def export_predicted_impact(
         demographic_cols.append(enrollment_col)
     
     for col in demographic_cols:
-        if col in predictions_df.columns and col not in key_columns:
+        if col in export_df.columns and col not in key_columns:
             key_columns.append(col)
     
     # Filter to available columns
-    export_columns = [col for col in key_columns if col in predictions_df.columns]
+    export_columns = [col for col in key_columns if col in export_df.columns]
     
-    # Create export DataFrame
-    export_df = predictions_df[export_columns].copy()
+    # Create export DataFrame with selected columns
+    export_df = export_df[export_columns].copy()
     
     # Fill missing values
     numeric_cols = export_df.select_dtypes(include=['number']).columns
@@ -224,6 +238,28 @@ def export_for_tableau(
     exported_files["summary"] = summary_json
     
     logger.info(f"Export complete. Files exported: {list(exported_files.keys())}")
+    
+    # Copy files to fixed Tableau location for easy connection
+    tableau_data_dir = Path("tableau/data_sources")
+    tableau_data_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Copy predicted impact CSV to fixed location
+    if "predicted_impact" in exported_files and Path(exported_files["predicted_impact"]).exists():
+        tableau_predictions = tableau_data_dir / "current_predictions.csv"
+        shutil.copy2(exported_files["predicted_impact"], tableau_predictions)
+        logger.info(f"Copied predictions to {tableau_predictions}")
+    
+    # Copy equity analysis CSV to fixed location
+    if "equity_analysis" in exported_files and exported_files["equity_analysis"] and Path(exported_files["equity_analysis"]).exists():
+        tableau_equity = tableau_data_dir / "current_equity_analysis.csv"
+        shutil.copy2(exported_files["equity_analysis"], tableau_equity)
+        logger.info(f"Copied equity analysis to {tableau_equity}")
+    
+    # Copy summary JSON to fixed location
+    if "summary" in exported_files and Path(exported_files["summary"]).exists():
+        tableau_summary = tableau_data_dir / "current_summary.json"
+        shutil.copy2(exported_files["summary"], tableau_summary)
+        logger.info(f"Copied summary to {tableau_summary}")
     
     return exported_files
 
